@@ -290,6 +290,9 @@ footer section h1{
         width: fit-content;
         height: fit-content;
     }
-
+	
+     .overview-grid{
+  	flex-direction:column;
+     }
     
 }
