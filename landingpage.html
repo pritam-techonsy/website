@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="landingpage.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/ba9abb9f88.js" crossorigin="anonymous"></script>
+    <title>TECHONSY</title>
+  </head>
+  <body>
+    <!-- Horizontal Navigation bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light py-3 px-5"
+      id="horizontal_nav"
+    >
+      <a class="navbar-brand" href="#"><b>TECHONSY</b></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-warning my-2 my-sm-0 text-light" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- End Horizontal Navigation bar -->
+    <!-- Banner content -->
+    <div class="content-div">
+      <div class="banner-text">
+        <h1>Empowering Businesses with Cutting-Edge Tech.</h1>
+        <button type="button" class="btn banner-btn text-light">
+          Read more <span><img src="images/readmore.png" alt="..." width="25" /></span>
+        </button>
+      </div>
+      <div class="banner-image">
+        <img src="images/js_vsctor.png" class="img-fluid" alt="..." width="1000" />
+      </div>
+    </div>
+    <!-- Banner content END -->
+
+    <!-- Overview -->
+    <div class="overview-div">
+      <h2 class="text-center">Overview</h2>
+      <div class="overview-grid">
+        <div class="users">
+          <h3 id="num">301</h3>
+          <h3 id="tag">Users</h3>
+        </div>
+        <div class="users">
+          <h3 id="num">6</h3>
+          <h3 id="tag">Services</h3>
+        </div>
+        <div class="users">
+          <h3 id="num">25</h3>
+          <h3 id="tag">Company</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Overview End -->
+
+    <!-- Popular Services -->
+    <div class="popular-div">
+      <h2 class="text-center">Popular services</h2>
+      <div class="Services">
+        <div class="card" style="--clr: #7b3ddec5">
+          <div class="card-image">
+            <img src="images/angular.png" alt="" />
+          </div>
+          <div class="card-content">
+            <h2>Angular</h2>
+            <p>
+              Angular: Powerful framework for building dynamic web apps with
+              TypeScript, components, and data binding.
+            </p>
+            <a href="#" class="btn banner-btn px-5 text-light">View</a>
+          </div>
+        </div>
+        <div class="card" style="--clr: #7b3ddec5">
+          <div class="card-image">
+            <img src="images/node-whitw.png" alt="" />
+          </div>
+          <div class="card-content">
+            <h2>Node.JS</h2>
+            <p>
+              Node.js: JavaScript runtime enabling server-side applications,
+              event-driven architecture, and network services.
+            </p>
+            <a href="#" class="btn banner-btn px-5 text-light">View</a>
+          </div>
+        </div>
+        <div class="card" style="--clr: #7b3ddec5">
+          <div class="card-image">
+            <img src="images/react.png" alt="" />
+          </div>
+          <div class="card-content">
+            <h2>React</h2>
+            <p>
+              React: JavaScript library for building UIs, simplifying
+              component-based development and reactive rendering in web
+              applications
+            </p>
+            <a href="#" class="btn banner-btn px-5 text-light">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- popular services End -->
+
+    <!-- Contact us -->
+    <div class="contactus-div">
+      <h2 class="text-center">Contact us</h2>
+      <div class="contact-content">
+        <div class="contact-form">
+          <div class="form">
+            <h3 class="text-center">Contact us</h3>
+            <form>
+              <div class="form-group">
+                <label for="Name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email address"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phoneno">Phone number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Enter Phone number"
+                />
+              </div>
+              <div class="btn-submit text-center">
+                <button
+                  type="submit"
+                  class="btn banner-btn text-light py-1 px-4"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contact-location">
+          <div id="map-container-google-2" class="z-depth-1-half map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact us END -->
+
+
+    <!-- footer -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-dark bg-light" >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #e3a509"
+             >
+      <!-- Left -->
+      <div class="me-5 text-light">
+        <span><b>Get connected with us on social networks:</b></span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4 mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4 mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4 mx-2">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4 mx-2">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4 mx-2">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4 mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h1 class="text-uppercase fw-bold">TECHONSY</h1>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">TECHONSY</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!">Home</a>
+            </p>
+            <p>
+              <a href="#!">Services</a>
+            </p>
+            <p>
+              <a href="#!">Blog</a>
+            </p>
+            <p>
+              <a href="#!">About us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Services</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!">Angular</a>
+            </p>
+            <p>
+              <a href="#!">Node.JS</a>
+            </p>
+            <p>
+              <a href="#!">React</a>
+            </p>
+            <p>
+              <a href="#!">TypeScript</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>Office No.12, Third Floor Barve Memorial
+              Complex Jangali Maharaj Road,Opposite
+              Panchali Hotel Shivaji Nagar Pune 411005</p>
+            <p>techonsy@gmail.com</p>
+            <p> + 91 9604430489</p>
+            <p>+ 91 7057336919</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3 text-light"
+         style="background-color: #7b3ddec5"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >TECHONSY.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+<!-- End of .container -->
+    <!-- footer End -->
+    <!-- Bootstrap Links -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

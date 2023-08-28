@@ -81,6 +81,7 @@ body{
     padding: 10px 100px 70px 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 0px 100px;
 }
 
@@ -294,5 +295,10 @@ footer section h1{
      .overview-grid{
   	flex-direction:column;
      }
+
+    .users{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     
 }
