@@ -1,0 +1,177 @@
+body{
+    overflow-x: hidden;
+}
+
+.head-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.head-section .title h1{
+    font-size: 45px !important;
+}
+
+.btn{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 10px 30px !important;
+    border-radius: 14px !important;
+    font-size: 20px !important;
+    transition: all ease-in-out 0.3s;
+}
+
+.card{
+    background: transparent !important;
+    color: #fff;
+}
+
+#service-title{
+    font-weight: 500 !important;
+}
+
+#span{
+    font-size: 50px !important;
+    font-weight: 900 !important;
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Card CSS */
+.content .card .card-img-top{
+    align-items: start !important;
+    width: 70px !important;
+    margin-left: 18px;
+}
+
+.card-title{
+    font-weight:600;
+    font-size: 22px;
+}
+
+.card-text{
+    font-weight: 500;
+    color: rgb(178, 178, 178);
+}
+
+/* Card CSS End */
+#nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+
+#nav-link.active{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    color: rgb(255, 255, 255) !important;
+    border: none;
+    
+}
+
+.tab-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology-card{
+    background-color: #313131 !important;
+    border-radius: 15px !important;
+    min-width: 130px;
+    width: 130px;
+    height: 160px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    transition: all ease 0.2s;
+}
+
+.technology-card:hover{
+    transform: scale(1.1);
+}
+
+.technology-card .card-img-top{
+    width: 70px;
+    padding-top: 10px;
+}
+
+
+.technology-card .card-title{
+    color: rgb(232, 255, 255);
+    font-weight: 500;
+}
+
+footer{
+    box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.356);
+    color:#fff;
+    padding-top:20px;
+}
+
+footer section a{
+    color: #ffffff;
+}
+
+footer section a:hover{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text;
+}
+
+footer section .fw-bold{
+    font-weight: 700 !important;
+}
+
+footer section h1{
+    color: #7b3ddec5;
+    font-weight: 800;
+}
+
+.copyright{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+}
+
+.fab{
+    font-size: 20px;
+}
+
+.fab:hover{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+}
+    
+.backend-tech-col, .frontend-tech-col, .cloud-tech-col, .database-tech-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:767px){
+    .head-section{
+        flex-direction: column-reverse;
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .head-section .title h1{
+        font-size: 30px !important;
+    }
+    
+    .head-section .title{
+        margin-left: 20px;
+    }
+
+    #service-title{
+        margin-top: 5rem;
+    }
+}
