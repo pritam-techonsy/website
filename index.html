@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Techonsy</title>
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/ba9abb9f88.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
@@ -19,6 +16,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <!-- aos animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- font-awsome -->
@@ -103,16 +101,20 @@
     </nav>
     <!-- Nav bar End -->
     
-    <div class="head-section" id="home">
-      <video autoplay loop muted playsinline class="back-video">
-        <source src="images/background-video.mp4" type="video/mp4">
+    <div class="head-section position-relative text-center" id="home">
+      <video autoplay loop muted playsinline class="back-video w-100 h-100 position-absolute top-0 left-0" style="object-fit: cover;">
+          <source src="images/background-video (2).mp4" type="video/mp4">
       </video>
-      <div class="head-material">
-        <h1>Techonsy</h1>
-        <p class="text-light ">Empowering your organization and industry with revolutionary innovation through collaborative partnership.</p>
-        <a class=" text-light " href="#contact" style="text-decoration: none; "><button class="btn btn-outline-light py-3 px-4 m-3 custom-radius">Contact us</button></a>
+      <div class="head-material  position-relative d-flex flex-column justify-content-center align-items-center h-100 p-3">
+          <h1 class="font-weight-bold h1-sm-30">Techonsy</h1>
+          <p class="text-light lead fs-sm-1">Empowering your organization and industry with revolutionary innovation through collaborative partnership.</p>
+          <a class="text-light" href="#contact" style="text-decoration: none;">
+              <button class="btn btn-outline-light py-3 px-4 mt-3 custom-radius">Contact us</button>
+          </a>
       </div>
-    </div>
+  </div>
+  
+  
   
 
     <!-- Call To Action -->
@@ -147,7 +149,7 @@
       </div>
       <div class="card-container d-flex justify-content-center">
         <div class="row ">
-          <div class=" col-md-6 col-lg-4 card-margin d-flex mx-auto">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -172,14 +174,14 @@
                       <p class="card-text m-0">
                         Creating web platforms to make your vision a reality. Crafting digital experiences for a standout online presence
                       </p>
-                      <button type="button" class="btn btn-outline-light rounded-5 px-5 mt-2  ">Light</button>
+                      <button type="button" class="btn btn-outline-light rounded px-5 mt-2  ">Light</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-10 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -204,14 +206,14 @@
                       <p class="card-text">
                         Turning your ideas into innovative mobile apps that redefine user experiences on iOS and Android.
                       </p>
-                      <button type="button" class="btn btn-outline-light rounded-5 px-5 mt-2  ">Light</button>
+                      <button type="button" class="btn btn-outline-light rounded px-5 mt-2  ">Light</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -219,7 +221,7 @@
                     <div class="cover">
                     <img
                       class="card-img-top img-fluid m-3 d-flex mx-auto"
-                      src="images/software_prototyping_icon.png"
+                      src="images/software_prototyping_icon.svg"
                       alt="Card image cap"
                     />
                   </div>
@@ -236,14 +238,14 @@
                       <p class="card-text">
                         Early-stage models for visualizing and testing software concepts.
                       </p>
-                      <button type="button" class="btn btn-outline-light rounded-5 px-5 mt-2  ">Light</button>
+                      <button type="button" class="btn btn-outline-light rounded px-5 mt-2  ">Light</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -275,7 +277,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -307,7 +309,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto " >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin " >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -340,7 +342,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -348,7 +350,7 @@
                     <div class="cover">
                     <img
                       class="card-img-top img-fluid m-3 d-flex mx-auto"
-                      src="images/enterprise_icon.png"
+                      src="images/enterprise_icon.svg"
                       alt="Card image cap"
                     />
                   </div>
@@ -372,7 +374,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -404,7 +406,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -436,7 +438,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -444,7 +446,7 @@
                     <div class="cover">
                     <img
                       class="card-img-top img-fluid m-3 d-flex mx-auto"
-                      src="images/architecture_icon.png"
+                      src="images/architecture_icon.svg"
                       alt="Card image cap"
                     />
                   </div>
@@ -518,7 +520,7 @@
               <div class="card technology-card my-2">
                 <img
                   class="card-img-top"
-                  src="images/angular-icon.png"
+                  src="images/angular-icon.svg"
                   alt="Card image cap"
                 />
                 <div class="mt-auto">
@@ -583,7 +585,7 @@
               <div class="card technology-card my-2">
                 <img
                   class="card-img-top"
-                  src="images/electron_icon.png"
+                  src="images/electron_icon.svg"
                   alt="Card image cap"
                 />
                 <div class="mt-auto">
@@ -641,7 +643,7 @@
               <div class="card technology-card my-2">
                 <img
                   class="card-img-top"
-                  src="images/python_icon.png"
+                  src="images/python_icon.svg"
                   alt="Card image cap"
                 />
                 <div class="mt-auto">
@@ -764,7 +766,7 @@
               <div class="card technology-card my-2">
                 <img
                   class="card-img-top"
-                  src="images/sqlite_icon.png"
+                  src="images/sqlite_icon.svg"
                   alt="Card image cap"
                 />
                 <div class="mt-auto">
@@ -796,7 +798,7 @@
               <div class="card technology-card my-2">
                 <img
                   class="card-img-top"
-                  src="images/aws_icon.png"
+                  src="images/aws_icon.svg"
                   alt="Card image cap"
                 />
                 <div class="mt-auto">
@@ -848,7 +850,7 @@
               <div class="card technology-card my-2">
                 <img
                   class="card-img-top"
-                  src="images/azure_icon.png"
+                  src="images/azure_icon.svg"
                   alt="Card image cap"
                 />
                 <div class="mt-auto">
