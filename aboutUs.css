@@ -1,0 +1,17 @@
+.aboutus-container{
+    margin-top: 25px;
+    width: 100%;
+    height: 90vh;
+    color:white;
+    font-family:'Roboto';
+}
+.aboutus-container p ,.aboutus-container h2{
+    font-family:'Roboto';
+}
+.our-services{
+    margin-top: 35px;
+    width: 100%;
+    height: 80vh;
+    color:white;
+    font-family:'Roboto';
+}

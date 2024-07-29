@@ -1,0 +1,267 @@
+body{
+    overflow-x: hidden;
+}
+
+.head-section{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.356);
+    color:#fff;
+    
+}
+.title {
+    text-align: center;
+}
+.heading{
+    margin-top: 7%;
+}
+.head-section .title h2{
+    font-size: 40px !important;
+    margin-top: 0;
+}
+.head-section2{
+    box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.356);
+    color:#fff;
+}
+
+.btn{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 10px 30px !important;
+    border-radius: 14px !important;
+    font-size: 20px !important;
+    transition: all ease-in-out 0.3s;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+.btn2{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    transition: all ease-in-out 0.3s;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.btn2:hover{
+    transform: scale(1.1);
+}
+#span{
+    font-size: 50px !important;
+    font-weight: 900 !important;
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+.card{
+    background: transparent !important;
+    color: #fff;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  
+  h2 .text-light {
+    font-family: 'Playfair Display', serif;
+    color: #fff; /* Keeping the text light color */
+    font-weight: 700; /* Making it bold */
+    text-align: center; /* Centering the text */
+    margin: 20px 0; /* Adding some margin */
+}
+  /* Card CSS */
+.card {
+    width: 300px;  /* Adjust the width as needed */
+    border-radius: 15px;
+    border-color: #ffffff;
+    background-color: #0d0c0d !important;
+    
+}
+
+.card-margin {
+    margin-top: 20px; /* Adjust the value as needed */
+    margin-bottom: 20px; /* Adjust the value as needed */
+
+}
+
+.content .card .card-img-top {
+    align-items: start !important;
+    width: 70px !important;
+    margin-left: 18px;
+  }
+
+  .card-img-top {
+    /* Optional image size adjustments */
+    max-width: 100%; /* Or a specific width */
+    object-fit: contain; /* Or cover */
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  .card-text {
+    font-weight: 500;
+    color: rgb(178, 178, 178);
+  }
+  
+  .card:hover {
+    border-radius: 15px;
+    border-color: #ffffffdc;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all ease 0.2s;
+    transform: scale(1.05);
+    opacity: 1;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .content .card {
+      margin-bottom: 20px; /* Reduce margin on smaller screens */
+    }
+  }
+#nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+
+#nav-link.active{
+        background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+        color: rgb(255, 255, 255) !important;
+        border: none;
+
+}
+nav{
+        /* border-bottom: 1px solid white; */
+        background-color: black;
+        box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+}
+.custom-dropdown {
+        width: 550px; /* Fixed width */
+        max-height: 180px; /* Max height to enable scrolling if content overflows */
+        overflow-y: auto; /* Vertical scrollbar if content exceeds height */
+        overflow-x: hidden; /* Hides horizontal scrollbar */
+        padding: 0; /* Removes padding to avoid extra space */
+}
+@media (max-width: 767.98px) {
+    .custom-dropdown {
+        width: 100%; /* Full width on small screens */
+        max-height: 80vh; /* Adjust max-height to a percentage of the viewport height */
+    }
+}
+.dropdown-item {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 5px;
+    align-items: center;
+    color:#0c0707;
+}
+/* .dropdown-image {
+    padding-top: 20px;
+    padding-right: 5px;
+    max-width: auto; /* Make sure the image is responsive */
+    /*height: 120px;
+} */
+.dropdown-item:hover {
+    background-color: white; /* Same as dropdown background */
+    color: #030303; /* Same as default text color */
+}
+footer{
+    box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.356);
+    color:#fff;
+    padding-top:20px;
+}
+
+footer section a{
+    color: #ffffff;
+}
+
+.nav-item:hover{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+    /* -webkit-text-fill-color: transparent;  */
+    -webkit-background-clip: text;
+}
+footer section a:hover{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+
+footer section .fw-bold{
+    font-weight: 700 !important;
+}
+
+footer section h1{
+    color: #7b3ddec5;
+    font-weight: 800;
+}
+
+.copyright{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+}
+
+.fab{
+    font-size: 20px;
+}
+
+.fab:hover{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+}
+    
+.backend-tech-col, .frontend-tech-col, .cloud-tech-col, .database-tech-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:767px){
+    .head-section{
+        flex-direction: column-reverse;
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .head-section .title h1{
+        font-size: 30px !important;
+    }
+    
+    .head-section .title{
+        margin-left: 20px;
+    }
+
+    #service-title{
+        margin-top: 5rem;
+    }
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar{
+    width:5px;
+
+}
+::-webkit-scrollbar-track{
+    background: #313131;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+}
+/* up arrow */
+#up-arrow {
+    position: fixed;
+    top: 87%; 
+    right: 20px; 
+    z-index: 10;
+    text-decoration-color: transparent;
+}
