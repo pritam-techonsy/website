@@ -1,0 +1,16 @@
+.dropdown:hover .dropdown-menu{
+    display: block;
+ }
+.dropdown-menu{
+    display: none;
+    z-index: 1000;
+    position: absolute;
+}
+
+.job-description{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right:10px;
+    padding-left: 10px;
+    border: 1px solid white;
+}

@@ -7,7 +7,7 @@
 
 .head-section{
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-image: linear-gradient(1B1B1B,fff);
     padding: 0 5%;
     display: flex;
@@ -128,12 +128,6 @@ body{
     text-decoration: none;
 }
 
-.card{
-    background: transparent !important;
-    color: #fff;
-    width:100%;
-}
-
 #service-title{
     font-weight: 500 !important;
 }
@@ -163,10 +157,11 @@ body{
   }
   
 .card {
-    
-    border-radius: 15px;
+    border-style: solid;
+    border-radius: 5px;
     border-color: #ffffff;
-    background-color: #313131 !important;
+    background-color: #232123 !important;
+    color: white;
     overflow: hidden;
     perspective: 1000px;
     margin: 20px 0;
@@ -178,31 +173,44 @@ body{
 
 }
 
-.card-divider {
+/* .card-divider {
     height: 5px; 
     background-color: #ccc; 
     margin: 10px 0; 
-  }
+  } */
 
-.card-container .card .card-img-top {
+/* .card-container .card .card-img-top {
     align-items: start !important;
     width: 70px !important;
     margin-left: 18px;
-  }
+  } */
 
-  .card-img-top {
-    max-width: 100%; 
-    object-fit: contain; 
-  }
+  /* .card-img-top {
+    height: ;
+    width: 600px;
+    /* max-width: 100%; */
+    /* object-fit: contain;  
+  } */
   
   .card-title {
     padding-top: 10px;
     text-align: center;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 25px;
+    font-family:'Roboto';
   }
   
-  
+  .card:hover {
+    border-radius: 15px;
+    border-color: #ffffffdc;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all ease 0.2s;
+    transform: scale(1.05);
+    opacity: 1;
+    transition: transform 0.2s ;
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
 
   .flip-card {
     background-color: transparent;
@@ -234,13 +242,13 @@ body{
   }
 
   .flip-card-front {
-    background-color: #0D0C0D;
+    /* background-color: #0D0C0D; */
     
   }
 
   .flip-card-back {
     
-    background-color: #0D0C0D;
+    /* background-color: #0D0C0D; */
     border-radius: 5px;
     color: white;
     transform: rotateY(180deg);
@@ -289,6 +297,15 @@ nav{
         max-height: 80vh; /* Adjust max-height to a percentage of the viewport height */
     }
 }
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+ }
+.dropdown-menu{
+    display: none;
+    z-index: 1000;
+    position: absolute;
+}
 .dropdown-item {
     display: flex;
     padding-top: 15px;
@@ -296,7 +313,9 @@ nav{
     padding-right: 5px;
     align-items: center;
     color:#0c0707;
+   
 }
+
 /* .dropdown-image {
     padding-top: 20px;
     padding-right: 5px;
