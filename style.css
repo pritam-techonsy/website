@@ -270,14 +270,13 @@ body{
 }
 
 #nav-link{
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255) !important;   
 }
 
 #nav-link.active{
     background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
     color: rgb(255, 255, 255) !important;
     border: none;
-
 }
 nav{
     /* border-bottom: 1px solid white; */
@@ -313,7 +312,6 @@ nav{
     padding-right: 5px;
     align-items: center;
     color:#0c0707;
-   
 }
 
 /* .dropdown-image {
