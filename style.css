@@ -168,16 +168,16 @@ body{
 }
 
 .card-margin {
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
 
 }
 
   .card-title {
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 15px;
     font-family:'Roboto';
   }
   
@@ -199,6 +199,11 @@ body{
     height: 270px;
     perspective: 1000px; 
   }
+  .card-body {
+    overflow: hidden; /* Prevents content from spilling out */
+  }
+
+
 
   .flip-card-inner {
     position: relative;
