@@ -48,3 +48,19 @@
     margin-top: 35px;
     width: 100%;
 }
+/* Ensure the dropdown is shown on hover */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Optional: Adjust dropdown menu position */
+.dropdown-menu {
+    margin-top: 0;
+}
+
+/* Optional: Hide the dropdown menu on mobile devices */
+@media (max-width: 767px) {
+    .dropdown-menu {
+        display: none;
+    }
+}
