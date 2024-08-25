@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mean-section ul,
+.mern-section ul {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.mean-section img,
+.mern-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 50px;
+}
+
+.benefits-section .card h5 {
+    font-weight: 600;
+}
