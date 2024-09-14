@@ -1,11 +1,147 @@
 body {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
   font-family: Arial, sans-serif;
 }
+/*
+  Navbar css / Header
+*/
+#nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+#navbarNavDropdown {
+  margin-right: 4.4vw;
+  justify-content: end;
+}
+.social > a {
+  text-decoration: none;
+}
+p > a {
+  text-decoration: none;
+}
+#nav-link.active {
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  color: rgb(255, 255, 255) !important;
+  border: none;
+}
+nav {
+  /* border-bottom: 1px solid white; */
+  background-color: black;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.custom-dropdown {
+  width: 550px; /* Fixed width */
+  max-height: 180px; /* Max height to enable scrolling if content overflows */
+  overflow-y: auto; /* Vertical scrollbar if content exceeds height */
+  overflow-x: hidden; /* Hides horizontal scrollbar */
+  padding: 0; /* Removes padding to avoid extra space */
+}
+@media (max-width: 767.98px) {
+  .custom-dropdown {
+    width: 100%;
+    max-height: 80vh;
+  }
+}
+.dropdown-item {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 5px;
+  align-items: center;
+  color: #0c0707;
+}
+.dropdown-item:hover {
+  background-color: white;
+  color: #030303;
+  width: fit-content;
+}
+
+/* Footer */
+footer {
+  box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.356);
+  color: #fff;
+  padding-top: 20px;
+}
+
+footer section a {
+  color: #ffffff;
+}
+
+.nav-item:hover {
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  /* -webkit-text-fill-color: transparent;  */
+  -webkit-background-clip: text;
+}
+footer section a:hover {
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+footer section .fw-bold {
+  font-weight: 700 !important;
+}
+
+footer section h1 {
+  color: #7b3ddec5;
+  font-weight: 800;
+}
+
+.copyright {
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+}
+
+.fab {
+  font-size: 20px;
+}
+
+.fab:hover {
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* End of footer */
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #313131;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+}
+/* up arrow */
+#up-arrow {
+  position: fixed;
+  top: 87%;
+  right: 20px;
+  z-index: 10;
+  text-decoration-color: transparent;
+}
+
+/* Ensure the dropdown is shown on hover */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Adjust dropdown menu position */
+.dropdown-menu {
+  margin-top: 0;
+}
+
+/* Optional: Hide the dropdown menu on mobile devices */
+@media (max-width: 767px) {
+  .dropdown-menu {
+    display: none;
+  }
+}
 
 .button-head {
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103FF);
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
   background-repeat: no-repeat;
   color: #fff;
   padding: 10px 30px !important;
@@ -20,19 +156,20 @@ body {
 }
 
 .button-head:hover {
-  background: linear-gradient(100deg, #8103FF, #bb01ffd0, #ff03abe4);
+  background: linear-gradient(100deg, #8103ff, #bb01ffd0, #ff03abe4);
   text-decoration: none;
 }
 
 #service-title {
   font-weight: 500 !important;
   font-size: 24px;
+  color: white;
 }
 
 #span {
   font-size: 50px !important;
   font-weight: 900 !important;
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103FF);
+  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -123,7 +260,8 @@ body {
   font-size: 16px;
 }
 
-.hero-image, .services-image {
+.hero-image,
+.services-image {
   margin-top: 20px;
   max-width: 100%;
   height: auto;

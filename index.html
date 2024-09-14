@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Techonsy</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
+   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
       <!-- Bootstrap JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous"> -->
     <script
       src="https://kit.fontawesome.com/ba9abb9f88.js"
@@ -32,6 +31,12 @@
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="locomotive-scroll.min.js"></script>
+<script>
+    (function () {
+        var scroll = new LocomotiveScroll();
+    })();
+</script>
   </head>
   <body style="background-color: black; font-family: 'Roboto'">
     <!-- Nav bar -->
@@ -65,7 +70,7 @@
                       <div class="col-md-4"> 
                           <a class="dropdown-item" href="react.html"><i class="fa-brands fa-react p-2"></i> React Native</a>
                           <a class="dropdown-item" href="ionic.html"><i class="fa-solid fa-atom p-2"></i> Ionic</a>
-                          <a class="dropdown-item" href="nextjs.html"><i class="fa-solid fa-n p-2"></i> NextJs</a>
+                          <a style="margin-left: 0.22vw;" class="dropdown-item" href="nextjs.html"><i class="fa-solid fa-n p-2"></i> NextJs</a>
                       </div>
                   </div>
               </div>
@@ -79,23 +84,21 @@
           </a>
           <div class="dropdown-menu dropdown-menu-right custom-dropdown">
               <div class="container-fluid">
-                  <div class="row">
+                  <div class="row" style="width: 40vw;">
                       <div class="col-md-6">
                           <a class="dropdown-item px-2" href="#"> <i class="fas fa-laptop-code p-2"></i> MEAN/MERN Stack Development</a>
-                          <a class="dropdown-item px-2" href="#"> <i class="fas fa-mobile p-2"></i> Mobile Development</a>
+                          <a style="margin-left: .3vw;display: flex; gap: 0.5vw;" class="dropdown-item px-2" href="#"> <i class="fas fa-mobile p-2"></i>  Mobile Development</a>
                           <a class="dropdown-item px-2" href="#"> <i class="fas fa-users p-2"></i> Remote Full Stack Team</a>
                       </div>
                       <div class="col-md-6"> 
                           <a class="dropdown-item px-2" href="#"> <i class="fas fa-cloud p-2"></i> Cloud Services</a>
-                          <a class="dropdown-item px-2" href="#"><i class="fas fa-magic p-2"></i> UI/UX Design</a>
-                          <a class="dropdown-item px-2" href="#"><i class="fas fa-question p-2"></i> QA Testing</a>
+                          <a style="margin-left: 0.2vw;" class="dropdown-item px-2" href="#"><i class="fas fa-magic p-2"></i> UI/UX Design</a>
+                          <a style="margin-left: 0.4vw;" class="dropdown-item px-2" href="#"><i style="margin-right: 0.25vw;" class="fas fa-question p-2"></i> QA Testing</a>
                       </div>
                   </div>
               </div>
           </div>
         </li>
-
-
         <li class="nav-item px-3 ">
           <a class="nav-link h5 " href="aboutUs.html">About us</a>
         </li>
@@ -142,15 +145,14 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <img
-                      class="mx-auto mt-2 " style="width: 200px; height: auto;"
+                  <div class="card h-100 gy-3">
+                    <img style="width: 200px; height: auto;margin:1vw;margin-left: 3.3vw;margin-top: 2vw;"
                       src="images/web-dev.svg"
                       alt="Card image cap"
                     />
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="white" style="margin-top: 5px;" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg> -->
                     <div class="card-body">
-                      <h5 class="card-title  custom-font mb-4"> Remote Full Stack Development</h5>
+                      <h5 style="margin-top: -1vw;" class="card-title custom-font" > Remote Full Stack Development</h5>
                     </div>
                   </div>
                 </div>
@@ -168,9 +170,7 @@
                           <li>Remote Collaboration Tools and Practices</li>
                           <li>Deployment and Cloud Services</li>
                         </ul>
-                        
                       </p>
-                       
                     </div>
                   </div>
                 </div>
@@ -183,7 +183,7 @@
                 <div class="flip-card-front">
                   <div class="card h-100 gy-3 mx-auto">
                       <img
-                      class="mx-auto mt-3 " style="width: 200px; height: auto;"
+                      class="mx-auto mt-5" style="width: 200px; height: auto;"
                       src="images/mob-dev.svg"
                       alt="Card image cap"
                       />
@@ -221,7 +221,7 @@
                 <div class="flip-card-front">
                   <div class="card h-100 gy-3 mx-auto">
                     <img
-                      class="mx-auto mt-3 " style="width: 200px; height: auto;"
+                      class="mx-auto" style="width: 200px; height: auto;margin-top: 2.3vw;"
                       src="images/soft-proto.svg"
                       alt="Card image cap"
                       />
@@ -260,7 +260,7 @@
                 <div class="flip-card-front">
                   <div class="card h-100 gy-3 mx-auto">
                       <img
-                      class="mx-auto mt-3 " style="width: 200px; height: auto;"
+                      class="mx-auto mt-5" style="width: 200px; height: auto;"
                       src="images/software-integration.svg"
                       alt="Card image cap"
                       />
@@ -291,13 +291,13 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <div class="card h-100 gy-3 mx-auto">
                     <img
-                      class="mx-auto mt-2 " style="width: 200px; height: auto;"
+                       style="width: 200px; height: auto;margin-top: 2vw;margin-left: 2.7vw;"
                       src="images/product-dev.svg"
                       alt="Card image cap"
                       />
@@ -333,7 +333,7 @@
                 <div class="flip-card-front">
                   <div class="card h-100 gy-3 mx-auto">
                     <img
-                      class="mx-auto mt-3 " style="width: 200px; height: auto;"
+                     style="width: 200px; height: auto;margin-top: 2vw;margin-left: 2.9vw;"
                       src="images/start-up.svg"
                       alt="Card image cap"
                       />

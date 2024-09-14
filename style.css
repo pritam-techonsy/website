@@ -132,6 +132,7 @@ body{
     font-weight: 500 !important;
 }
 
+
 #span{
     font-size: 50px !important;
     font-weight: 900 !important;
@@ -252,6 +253,7 @@ body{
     color: rgb(255, 255, 255) !important;   
 }
 #navbarNavDropdown{
+    margin-right: 4.4vw;
     justify-content: end;
 }
 
@@ -306,6 +308,7 @@ nav{
 .dropdown-item:hover {
     background-color: white; 
     color: #030303; 
+    width: fit-content;
 }
 .tab-content{
     display: flex;
@@ -480,5 +483,5 @@ footer section h1{
 @media (max-width: 767px) {
     .dropdown-menu {
         display: none;
-    }
+    }   
 }
