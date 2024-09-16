@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    
 }
 
 .head-section{
@@ -257,6 +258,13 @@ body{
     justify-content: end;
 }
 
+#navbar{
+    width: 100%;
+    height: fit-content;
+    background-color: #313131;
+    color: #030303;
+}
+
 .social>a{
     text-decoration: none;
 }
@@ -269,7 +277,6 @@ p>a{
     border: none;
 }
 nav{
-    /* border-bottom: 1px solid white; */
     background-color: black;
     box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
 }

@@ -1,15 +1,26 @@
 body {
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
-
 /*
   Navbar css / Header
 */
+button a{
+  text-decoration: none;
+  color: white;
+}
 #nav-link {
   color: rgb(255, 255, 255) !important;
 }
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 #navbarNavDropdown {
   margin-right: 4.4vw;
   justify-content: end;
@@ -20,16 +31,14 @@ body {
 p > a {
   text-decoration: none;
 }
-#nav-link.active {
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
-  color: rgb(255, 255, 255) !important;
-  border: none;
-}
 nav {
   /* border-bottom: 1px solid white; */
   background-color: black;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
     5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.custom-font {
+  font-family: "Roboto", sans-serif;
 }
 .custom-dropdown {
   width: 550px; /* Fixed width */
@@ -46,18 +55,17 @@ nav {
 }
 .dropdown-item {
   display: flex;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 0px;
   padding-right: 5px;
   align-items: center;
   color: #0c0707;
 }
-.dropdown-item:hover {
-  background-color: white;
-  color: #030303;
-  width: fit-content;
+
+#languages a:hover{
+  background-color: rgb(195, 195, 195);
+  color: #068ec3;
 }
-/* Rest of the css */
 
 /* Footer */
 footer {
@@ -71,12 +79,12 @@ footer section a {
 }
 
 .nav-item:hover {
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  background: linear-gradient(100deg, #068ec3, #064a75);
   /* -webkit-text-fill-color: transparent;  */
   -webkit-background-clip: text;
 }
 footer section a:hover {
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  background: #068ec3;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -86,12 +94,12 @@ footer section .fw-bold {
 }
 
 footer section h1 {
-  color: #7b3ddec5;
+  color: #068ec3;
   font-weight: 800;
 }
 
 .copyright {
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  background: linear-gradient(100deg, #068ec3, #064a75);
 }
 
 .fab {
@@ -99,17 +107,53 @@ footer section h1 {
 }
 
 .fab:hover {
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  background: linear-gradient(100deg,  #068ec3, #064a75);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 /* End of footer */
 
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #313131;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(100deg,  #068ec3, #064a75);
+}
+/* up arrow */
+#up-arrow {
+  position: fixed;
+  top: 87%;
+  right: 20px;
+  z-index: 10;
+  text-decoration-color: transparent;
+}
+
+/* Ensure the dropdown is shown on hover */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Adjust dropdown menu position */
+.dropdown-menu {
+  margin-top: 0;
+}
+
+/* Optional: Hide the dropdown menu on mobile devices */
+@media (max-width: 767px) {
+  .dropdown-menu {
+    display: none;
+  }
+}
+
 .button-head {
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  background: linear-gradient(100deg, #064a75, #068ec3);
   background-repeat: no-repeat;
-  color: #fff !important; /* Ensures button text is white */
+  color: #fff;
   padding: 10px 30px !important;
   border-radius: 14px !important;
   font-size: 20px !important;
@@ -118,28 +162,24 @@ footer section h1 {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  text-decoration: none; /* Ensures there is no underline */
+  text-decoration: none;
 }
 
 .button-head:hover {
-  background: linear-gradient(100deg, #8103ff, #bb01ffd0, #ff03abe4);
-  color: #fff !important; /* Ensures button text remains white on hover */
-}
-
-.button-head a {
+  background: linear-gradient(100deg, #068ec3, #064a75);
   text-decoration: none;
-  color: #fff !important; /* Ensures anchor text inside the button is white */
 }
 
 #service-title {
   font-weight: 500 !important;
   font-size: 24px;
+  color: white;
 }
 
 #span {
   font-size: 50px !important;
   font-weight: 900 !important;
-  background: linear-gradient(100deg, #ff03abe4, #bb01ffd0, #8103ff);
+  background: linear-gradient(100deg, #068ec3, #064a75);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
