@@ -112,7 +112,7 @@ body{
 }
 
 .button-head{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    background: linear-gradient(100deg,#068ec3, #064a75);
     background-repeat: no-repeat;
     color: #fff;
     padding: 10px 30px !important;
@@ -137,7 +137,7 @@ body{
 #span{
     font-size: 50px !important;
     font-weight: 900 !important;
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+    background: linear-gradient(100deg,#068ec3, #064a75); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
 }
@@ -151,7 +151,7 @@ body{
   
  
 .cover{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    background: linear-gradient(100deg,#068ec3, #064a75);
     height: 50px;
     margin-bottom: 50px;
     width: 100%;
@@ -272,7 +272,7 @@ p>a{
     text-decoration: none;
 }
 #nav-link.active{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    background: linear-gradient(100deg,#068ec3, #064a75);
     color: rgb(255, 255, 255) !important;
     border: none;
 }
@@ -397,12 +397,12 @@ footer section a{
 }
 
 .nav-item:hover{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+    background: linear-gradient(100deg,#068ec3, #064a75); 
     /* -webkit-text-fill-color: transparent;  */
     -webkit-background-clip: text;
 }
 footer section a:hover{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+    background: linear-gradient(100deg,#068ec3, #064a75); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text;
 }
@@ -417,7 +417,7 @@ footer section h1{
 }
 
 .copyright{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    background: linear-gradient(100deg,#068ec3, #064a75);
 }
 
 .fab{
@@ -425,7 +425,7 @@ footer section h1{
 }
 
 .fab:hover{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF); 
+    background: linear-gradient(100deg,#068ec3, #064a75); 
         -webkit-text-fill-color: transparent; 
         -webkit-background-clip: text; 
 }
@@ -465,7 +465,7 @@ footer section h1{
     background: #313131;
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(100deg,#ff03abe4, #bb01ffd0, #8103FF);
+    background: linear-gradient(100deg,#068ec3, #064a75);
 }
 /* up arrow */
 #up-arrow {

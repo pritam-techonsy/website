@@ -55,9 +55,6 @@ nav {
 }
 .dropdown-item {
   display: flex;
-  padding-top: 10px;
-  padding-left: 0px;
-  padding-right: 5px;
   align-items: center;
   color: #0c0707;
 }
