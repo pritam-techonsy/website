@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mean/Mern Stack Development</title>
+  <link rel="stylesheet" href="mean-mern stack development.css">
+ <!-- Locomotive Scroll CSS -->
+ <link
+ rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+/>
+
+<!-- Google Fonts -->
+<link
+ href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
+ rel="stylesheet"
+/>
+
+<!-- Bootstrap CSS (Latest Version) -->
+<link
+ href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+ rel="stylesheet"
+/>
+
+<!-- AOS Animation CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+<!-- Font Awesome (Latest) -->
+<link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+/>
+
+<!-- jQuery (for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Locomotive Scroll JS -->
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+<!-- Font Awesome Kit (Optional for additional icons) -->
+<script
+ src="https://kit.fontawesome.com/ba9abb9f88.js"
+ crossorigin="anonymous"
+></script>
+
+<!-- Initialize Locomotive Scroll -->
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+   const scroll = new LocomotiveScroll();
+ });
+ </script>
+
+ </head>
+
+ <body style="background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand p-2" href="index.html"
+        ><img src="images/logo_transparent.png" alt="No Logo" width="200"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+          <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+         <!-- Dropdown Trigger -->
+        <li class="nav-item dropdown px-3">
+            <a
+              class="nav-link dropdown-toggle h5"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Expertise
+            </a>
+            <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+              <div class="container-fluid">
+                <div id="languages" class="row">
+                  <div style="padding:0vw 1vw;" class="col-md-4">
+                    <a class="dropdown-item" href="angular.html">
+                      <i class="fa-brands fa-angular p-2"></i> Angular</a
+                    >
+                    <a class="dropdown-item" href="react.html">
+                      <i class="fa-brands fa-react p-2"></i> React</a
+                    >
+                    <a class="dropdown-item" href="vuejs.html">
+                      <i class="fa-brands fa-vuejs p-2"></i> VueJs</a
+                    >
+                  </div>
+                  <div style="padding:0vw 1vw;" class="col-md-4">
+                    <a class="dropdown-item" href="nodejs.html">
+                      <i class="fa-brands fa-node-js p-2"></i> NodeJS</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      ><i class="fa-solid fa-atom p-2"></i> Electrons</a
+                    >
+                    <a class="dropdown-item" href="flutter.html"
+                      ><i class="fa-brands fa-flutter p-2"></i> Flutter</a
+                    >
+                  </div>
+                  <div style="padding:0vw 1vw;" class="col-md-4">
+                    <a class="dropdown-item" href="react.html"
+                      ><i class="fa-brands fa-react p-2"></i> React Native</a
+                    >
+                    <a class="dropdown-item" href="ionic.html"
+                      ><i class="fa-solid fa-atom p-2"></i> Ionic</a
+                    >
+                    <a
+                      style="margin-left: 0.22vw"
+                      class="dropdown-item"
+                      href="nextjs.html"
+                      ><i class="fa-solid fa-n p-2"></i> NextJs</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Another Dropdown Trigger -->
+          <li class="nav-item dropdown px-3">
+            <a
+              class="nav-link dropdown-toggle h5"
+              href="#"
+              id="navbarDropdownMenuLink2"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+              <div class="container-fluid">
+                <div id="languages" class="row" style="width: 40vw">
+                  <div style="padding:0.4vw 1vw;" class="col-md-6">
+                    <a class="dropdown-item px-2" href="#">
+                      <i class="fas fa-laptop-code p-2"></i> MEAN/MERN Stack
+                      Development</a
+                    >
+                    <a
+                      style="margin-left: 0.3vw; display: flex; gap: 0.5vw"
+                      class="dropdown-item px-2"
+                      href="#"
+                    >
+                      <i class="fas fa-mobile p-2"></i> Mobile Development</a
+                    >
+                    <a class="dropdown-item px-2" href="#">
+                      <i class="fas fa-users p-2"></i> Remote Full Stack Team</a
+                    >
+                  </div>
+                  <div style="padding:0.4vw 1vw;" class="col-md-6">
+                    <a class="dropdown-item px-2" href="#">
+                      <i class="fas fa-cloud p-2"></i> Cloud Services</a
+                    >
+                    <a
+                      style="margin-left: 0.2vw"
+                      class="dropdown-item px-2"
+                      href="#"
+                      ><i class="fas fa-magic p-2"></i> UI/UX Design</a
+                    >
+                    <a
+                      style="margin-left: 0.4vw"
+                      class="dropdown-item px-2"
+                      href="#"
+                      ><i
+                        style="margin-right: 0.25vw"
+                        class="fas fa-question p-2"
+                      ></i>
+                      QA Testing</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link h5" href="aboutUs.html">About us</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link h5" href="career.html"> Careers</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link h5" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+      <div class="container-fluid hero-section">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+                <h1 id="span">Mean/Mern Stack Development</h1>
+                <p id="service-title">
+                    Build future-ready software solutions with the top mean/mern stack developers 
+                    development company in India
+                  </p>
+                  
+          <!-- Adding the image -->
+          <!-- <img src="path-to-your-hero-image.png" alt="Angular Development Company" class="hero-image"> -->
+           <img src="C:\Users\VIJAY\Desktop\task chapter techonsys\website\images\mean-mern.png" class="custom-image mb-4"/>
+            <div class="d-flex justify-content-center gap-3 mt-2 mb-4">
+                <a href="#" class="button-head">Get Started</a>
+                <a href="#" class="button-head">book a call with our ceo</a>
+       
+                </div> 
+            </div>
+        </div>
+<!--mean/mern development services section-->
+<!-- MEAN/MERN Stack Development Services Section -->
+<div class="container-fluid services-section">
+    <h2 class="services-title" id="span">MEAN/MERN Stack Development Services</h2>
+    <div class="row justify-content-center">
+      <!-- Custom MEAN/MERN Apps -->
+      <div class="col-md-3 service-card">
+        <div class="service-icon">✨</div>
+        <div class="service-title">Custom MEAN/MERN Apps</div>
+        <div class="service-description">
+          Develop tailored full-stack applications using MongoDB, Express, Angular/React, and Node.js for scalable, efficient, and robust solutions.
+        </div>
+      </div>
+  
+      <!-- API Development & Integration -->
+      <div class="col-md-3 service-card">
+        <div class="service-icon">🔗</div>
+        <div class="service-title">API Development & Integration</div>
+        <div class="service-description">
+          Build and integrate secure, high-performance RESTful APIs with your MEAN/MERN stack applications to enable seamless data exchange.
+        </div>
+      </div>
+  
+      <!-- Migration to MEAN/MERN Stack -->
+      <div class="col-md-3 service-card">
+        <div class="service-icon">🚀</div>
+        <div class="service-title">Migration to MEAN/MERN Stack</div>
+        <div class="service-description">
+          Seamlessly migrate your existing web applications to the MEAN/MERN stack, ensuring enhanced performance, scalability, and modern architecture.
+        </div>
+      </div>
+  
+      <!-- MEAN/MERN Stack Consulting -->
+      <div class="col-md-3 service-card">
+        <div class="service-icon">💼</div>
+        <div class="service-title">MEAN/MERN Stack Consulting</div>
+        <div class="service-description">
+          Get expert consulting services for MEAN/MERN stack development, helping you strategize and implement full-stack solutions effectively.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid benefits-section">
+    <h2 id="span" style="padding-bottom: 2vw">
+      Benefits of MEAN/MERN Stack Development
+    </h2>
+    <div class="row justify-content-center">
+      
+      <!-- Faster Development -->
+      <div class="col-md-3 benefit">
+        <div class="benefit-icon">⚡</div>
+        <div class="benefit-title">Faster Development</div>
+        <div class="benefit-text">
+          The unified JavaScript stack (MongoDB, Express, Angular/React, and Node.js) speeds up development by enabling developers to work on both the frontend and backend using a single language.
+        </div>
+      </div>
+  
+      <!-- Full-Stack JavaScript -->
+      <div class="col-md-3 benefit">
+        <div class="benefit-icon">🌐</div>
+        <div class="benefit-title">Full-Stack JavaScript</div>
+        <div class="benefit-text">
+          Use JavaScript across the entire application, making development smoother with fewer context switches between frontend and backend.
+        </div>
+      </div>
+  
+      <!-- Scalability -->
+      <div class="col-md-3 benefit">
+        <div class="benefit-icon">📈</div>
+        <div class="benefit-title">Scalability</div>
+        <div class="benefit-text">
+          MEAN/MERN stack applications are highly scalable, offering flexibility for startups as well as enterprises to grow with their business needs.
+        </div>
+      </div>
+  
+      <!-- Performance & Efficiency -->
+      <div class="col-md-3 benefit">
+        <div class="benefit-icon">🚀</div>
+        <div class="benefit-title">Performance & Efficiency</div>
+        <div class="benefit-text">
+          Leverage the power of non-blocking, asynchronous code with Node.js for high-performance, efficient server-side operations.
+        </div>
+      </div>
+  
+      <!-- Cost-Effective Development -->
+      <div class="col-md-3 benefit">
+        <div class="benefit-icon">💰</div>
+        <div class="benefit-title">Cost-Effective Development</div>
+        <div class="benefit-text">
+          Since MEAN/MERN uses JavaScript across all layers of the stack, fewer resources are required, reducing overall development costs.
+        </div>
+      </div>
+      
+      <!-- Open-Source & Community Support -->
+      <div class="col-md-3 benefit">
+        <div class="benefit-icon">🌍</div>
+        <div class="benefit-title">Open-Source & Community Support</div>
+        <div class="benefit-text">
+          Benefit from the robust open-source community, with a wealth of resources, libraries, and support available to accelerate development.
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+<footer class="text-lg-start text-light mt-3">
+    <!-- Section: Social media -->
+
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="mx-5 text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <a class="navbar-brand p-2" href="#"
+              ><img
+                src="images/logo_transparent.png"
+                alt="Techonsy Logo"
+                class="img-fluid"
+                width="250"
+            /></a>
+            <div class="mt-3">
+              <div class="social">
+                <a href="#" class="text-white me-1 mx-2">
+                  <i
+                    class="fab fa-facebook-f"
+                    data-aos="flip-left"
+                    data-aos-delay="500"
+                  ></i>
+                </a>
+                <a href="#" class="text-white me-1 mx-2">
+                  <i
+                    class="fab fa-twitter"
+                    data-aos="flip-left"
+                    data-aos-delay="600"
+                  ></i>
+                </a>
+                <a href="#" class="text-white me-1 mx-2">
+                  <i
+                    class="fab fa-google"
+                    data-aos="flip-left"
+                    data-aos-delay="700"
+                  ></i>
+                </a>
+                <a href="#" class="text-white me-1 mx-2">
+                  <i
+                    class="fab fa-instagram"
+                    data-aos="flip-left"
+                    data-aos-delay="800"
+                  ></i>
+                </a>
+                <a href="#" class="text-white me-1 mx-2">
+                  <i
+                    class="fab fa-linkedin"
+                    data-aos="flip-left"
+                    data-aos-delay="900"
+                  ></i>
+                </a>
+                <a href="" class="text-white me-1 mx-2">
+                  <i
+                    class="fab fa-github"
+                    data-aos="flip-left"
+                    data-aos-delay="1000"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div
+            class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"
+            data-aos="fade-right"
+            data-aos-delay="800"
+          >
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">TECHONSY</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #7c4dff; height: 2px"
+            />
+            <p>
+              <a href="#!">Home</a>
+            </p>
+            <p>
+              <a href="#!">Services</a>
+            </p>
+            <p>
+              <a href="#!">Consultancies</a>
+            </p>
+            <p>
+              <a href="#!">Tools & Technologies</a>
+            </p>
+            <p>
+              <a href="#!">About us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div
+            class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"
+            data-aos="fade-right"
+            data-aos-delay="800"
+          >
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Services</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #7c4dff; height: 2px"
+            />
+            <p>
+              <a href="#!">Web Development</a>
+            </p>
+            <p>
+              <a href="#!">Mobile Development</a>
+            </p>
+            <p>
+              <a href="#!">UI/UX Designing</a>
+            </p>
+            <p>
+              <a href="#!">Product Development</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div
+            class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+            data-aos="fade-right"
+            data-aos-delay="800"
+          >
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #7c4dff; height: 2px"
+            />
+            <p>
+              Office No.12, Third Floor Barve Memorial Complex Jangali Maharaj
+              Road,Opposite Panchali Hotel Shivaji Nagar Pune 411005
+            </p>
+            <p>contact@techonsy.com</p>
+            <p>+ 91 7276279026</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center copyright p-3 text-light">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">TECHONSY.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer END -->
+  <!-- up arrow -->
+  <section id="up-arrow">
+    <a href="#home"
+      ><i
+        class="fa-solid fa-arrow-up p-3 rounded"
+        style="
+          background: linear-gradient(100deg,#064a75, #068ec3);
+          color: #0a0a0a;
+        "
+      ></i
+    ></a>
+  </section>
+  <!--  -->
+
+  <!-- aos js animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--  -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+  </html>
