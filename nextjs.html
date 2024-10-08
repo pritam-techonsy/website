@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="nextjs.css" rel="stylesheet">
+    <!--services and benfits section animation-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+ 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -109,12 +112,14 @@
     <div class="container-fluid hero-section">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8">
-                <h1 id="span">Next.js Development Company</h1>
-                <p id="service-title">Elevate your web projects with the top Next.js development company in India</p>
-                <img src="images/nextjs.png" alt="Next.js Logo" class="img-fluid" style="width: 150px; height: 150px;">
+                <h1 id="span" data-aos="fade-left">Next.js Development Company</h1>
+                <p id="service-title" data-aos="fade-right">Elevate your web projects with the top Next.js development company in India</p>
+                <img src="images/nextjs.png" alt="Next.js Logo" 
+                class="img-fluid" style="width: 150px; height: 150px;"
+                data-aos="fade-up">
                 <div class="d-flex justify-content-center gap-3 mt-4">
-                    <button class="button-head"><a href="#">Get Started</a></button>
-                    <button class="button-head"><a href="#">Book a call with our CEO</a></button>
+                  <a href="#" class="button-head" data-aos="fade-up">Get Started</a>
+                  <a href="#" class="button-head" data-aos="fade-up">Book a call with our CEO</a>
                 </div>
             </div>
         </div>
@@ -122,36 +127,36 @@
 
     <!-- Next.js Development Services Section -->
     <div class="container-fluid services-section">
-        <h2 class="services-title" id="span">Next.js Development Services</h2>
+        <h2 class="services-title" id="span" data-aos="fade-left">Next.js Development Services</h2>
         <div class="row justify-content-center">
-            <div class="col-md-3 service-card">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-icon">🚀</div>
                 <div class="service-title">Dynamic Routing</div>
                 <div class="service-description">Supports dynamic URL routing and pages with ease.</div>
             </div>
-            <div class="col-md-3 service-card">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-icon">🌐</div>
                 <div class="service-title">Static Export</div>
                 <div class="service-description">Generates static HTML for seamless deployment.</div>
             </div>
-            <div class="col-md-3 service-card">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-icon">🔗</div>
                 <div class="service-title">API Integration</div>
                 <div class="service-description">Connects with various APIs directly within your application.</div>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-md-3 service-card">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="400">
                 <div class="service-icon">🔒</div>
                 <div class="service-title">Middleware</div>
                 <div class="service-description">Handles middleware functions for server-side logic.</div>
             </div>
-            <div class="col-md-3 service-card">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-icon">🌍</div>
                 <div class="service-title">Internationalization</div>
                 <div class="service-description">Supports multiple languages and locales for global reach.</div>
             </div>
-            <div class="col-md-3 service-card">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="600">
                 <div class="service-icon">⚡</div>
                 <div class="service-title">Incremental Static Regeneration</div>
                 <div class="service-description">Updates static content without rebuilding the entire site.</div>
@@ -161,40 +166,35 @@
 
     <!-- Benefits of Next.js Framework Section -->
     <div class="container-fluid benefits-section">
-        <h2 id="span">Benefits of Next.js Framework</h2>
+        <h2 id="span" data-aos="fade-up">Benefits of Next.js Framework</h2>
         <div class="row justify-content-center">
-            <div class="col-md-3 benefit">
+            <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="100">
                 <div class="benefit-icon">⚡</div>
                 <div class="benefit-title">Server-Side Rendering (SSR)</div>
                 <div class="benefit-text">Renders pages on the server for faster load times.</div>
             </div>
-            <div class="col-md-3 benefit">
+            <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="200">
                 <div class="benefit-icon">📄</div>
                 <div class="benefit-title">Static Site Generation (SSG)</div>
                 <div class="benefit-text">Pre-renders pages at build time for improved performance.</div>
             </div>
-            <div class="col-md-3 benefit">
+            <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="300">
                 <div class="benefit-icon">📦</div>
                 <div class="benefit-title">Automatic Code Splitting</div>
                 <div class="benefit-text">Loads only necessary code for each page, improving speed.</div>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-md-3 benefit">
+            <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="400">
                 <div class="benefit-icon">🔗</div>
                 <div class="benefit-title">Built-in Routing</div>
                 <div class="benefit-text">Provides a simple and intuitive routing system.</div>
             </div>
-            <div class="col-md-3 benefit">
+            <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="500">
                 <div class="benefit-icon">🔧</div>
                 <div class="benefit-title">API Routes</div>
                 <div class="benefit-text">Handles backend logic within the same codebase.</div>
-            </div>
-            <div class="col-md-3 benefit">
-                <div class="benefit-icon">🚀</div>
-                <div class="benefit-title">Optimized Performance</div>
-                <div class="benefit-text">Includes automatic image optimization and other performance enhancements.</div>
-            </div>
+            </div> 
         </div>
     </div>
     <footer class="text-lg-start text-light mt-3">
@@ -375,7 +375,16 @@
       <script>
         AOS.init();
       </script>
-
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+  
+    AOS.init({
+      duration: 1500,
+      once:true,
+    });
+  });
+  
+        </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

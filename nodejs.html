@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
     />
+
+<!--services and benfits section animation-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+ 
+
+
     <link rel="stylesheet" href="nodejs.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
@@ -106,8 +112,8 @@
     <div class="container-fluid hero-section">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-8">
-          <h1 id="span">Node.js Development Services</h1>
-          <p id="service-title">
+          <h1 id="span" data-aos="fade-left">Node.js Development Services</h1>
+          <p id="service-title" data-aos="fade-right">
             Maximize efficiency with cutting-edge Node.js development for
             high-performance apps
           </p>
@@ -117,12 +123,11 @@
             alt="Node.js Logo"
             class="img-fluid"
             style="width: 150px; height: 150px"
+            data-aos="fade-up"
           />
           <div class="d-flex justify-content-center gap-3 mt-4">
-            <button class="button-head"><a href="#" style="text-decoration: none;color:white">Get Started</a></button>
-            <button class="button-head">
-              <a href="#" style="text-decoration: none;color:white">Book a call with our CEO</a>
-            </button>
+            <a href="#" class="button-head" data-aos="fade-up">Get Started</a>
+            <a href="#" class="button-head" data-aos="fade-up">Book a call with our CEO</a>
           </div>
         </div>
       </div>
@@ -132,21 +137,21 @@
     <div class="container-fluid services-section">
       <h2 class="services-title" id="span">Node.js Development Services</h2>
       <div class="row justify-content-center">
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="100">
           <div class="service-icon">⚙️</div>
           <div class="service-title">Server-Side JavaScript</div>
           <div class="service-description">
             Build scalable, server-side applications with JavaScript.
           </div>
         </div>
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="200">
           <div class="service-icon">🌍</div>
           <div class="service-title">REST APIs</div>
           <div class="service-description">
             Develop RESTful APIs for web and mobile applications.
           </div>
         </div>
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="300">
           <div class="service-icon">💬</div>
           <div class="service-title">Real-Time Applications</div>
           <div class="service-description">
@@ -155,21 +160,21 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="400">
           <div class="service-icon">📁</div>
           <div class="service-title">File Handling</div>
           <div class="service-description">
             Efficient file uploads and processing capabilities.
           </div>
         </div>
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="500">
           <div class="service-icon">💾</div>
           <div class="service-title">Database Integration</div>
           <div class="service-description">
             Connect to databases like MongoDB, MySQL, and PostgreSQL.
           </div>
         </div>
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="600">
           <div class="service-icon">🛠️</div>
           <div class="service-title">Microservices Architecture</div>
           <div class="service-description">
@@ -181,23 +186,23 @@
 
     <!-- Benefits of Node.js Framework Section -->
     <div class="container-fluid benefits-section">
-      <h2 id="span">Benefits of Node.js Framework</h2>
+      <h2 id="span" data-aos="fade-up">Benefits of Node.js Framework</h2>
       <div class="row justify-content-center">
-        <div class="col-md-3 benefit">
+        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="100">
           <div class="benefit-icon">⚡</div>
           <div class="benefit-title">Asynchronous I/O</div>
           <div class="benefit-text">
             Non-blocking operations for high performance and scalability.
           </div>
         </div>
-        <div class="col-md-3 benefit">
+        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="200">
           <div class="benefit-icon">💻</div>
           <div class="benefit-title">Single Language</div>
           <div class="benefit-text">
             Uses JavaScript for both client and server-side development.
           </div>
         </div>
-        <div class="col-md-3 benefit">
+        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="300">
           <div class="benefit-icon">📈</div>
           <div class="benefit-title">Scalability</div>
           <div class="benefit-text">
@@ -206,29 +211,24 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-3 benefit">
+        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="400">
           <div class="benefit-icon">📦</div>
           <div class="benefit-title">NPM Ecosystem</div>
           <div class="benefit-text">
             Access a vast library of tools and packages for rapid development.
           </div>
         </div>
-        <div class="col-md-3 benefit">
+        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="500">
           <div class="benefit-icon">🔄</div>
           <div class="benefit-title">Event-Driven</div>
           <div class="benefit-text">
             Efficient handling of real-time events and interactions.
           </div>
         </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🚀</div>
-          <div class="benefit-title">Fast Execution</div>
-          <div class="benefit-text">
-            Built on Google’s V8 engine, ensuring high-speed performance.
-          </div>
-        </div>
+        
       </div>
     </div>
+    
     <footer class="text-lg-start text-light mt-3">
       <!-- Section: Social media -->
 
@@ -406,6 +406,17 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function(){
+  AOS.init({
+          duration: 1000, 
+          once: true,      // Whether animation should happen only once
+      });
+
+} )
+
     </script>
     <!--  -->
     <!-- Bootstrap JS -->

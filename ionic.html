@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
+     
+<!--services and benfits section animation-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+ 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script
@@ -109,12 +113,18 @@
     <div class="container-fluid hero-section">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-8 text-center">
-                <h1 id="span">Ionic Development</h1>
-                <p id="service-title">Create powerful and beautiful mobile and web applications with the Ionic framework.</p>
-                <img src="./images/ionic_icon.png" alt="Ionic Logo" class="img-fluid" style="width: 150px; height: 150px;margin-top: 2vw;">
+                <h1 id="span" data-aos="fade-left">Ionic Development</h1>
+                <p id="service-title" data-aos="fade-right">Create powerful and beautiful mobile and web applications with the Ionic framework.</p>
+                <img src="./images/ionic_icon.png" 
+                 alt="Ionic Logo"
+                 class="img-fluid"
+                 style="width: 150px; height: 150px;
+                 margin-top: 2vw;
+                 "
+                 data-aos="fade-up">
                 <div class="d-flex justify-content-center gap-3 mt-4">
-                    <a href="#" class="button-head">Get Started</a>
-                    <a href="#" class="button-head">Schedule a Demo</a>
+                    <a href="#" class="button-head" data-aos="fade-up">Get Started</a>
+                    <a href="#" class="button-head" data-aos="fade-up">Schedule a Demo</a>
                 </div>
             </div>
         </div>
@@ -122,76 +132,78 @@
 
     <!-- Ionic Development Services Section -->
     <div class="container-fluid services-section">
-        <h2 class="services-title" id="span">Ionic Development Services</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-3 service-card">
-                <div class="service-icon">📱</div>
-                <div class="service-title">Cross-Platform Development</div>
-                <div class="service-description">Develop applications for web, iOS, and Android from a single codebase, saving time and resources.</div>
-            </div>
-            <div class="col-md-3 service-card">
-                <div class="service-icon">🎨</div>
-                <div class="service-title">Custom UI Components</div>
-                <div class="service-description">Utilize a rich library of pre-designed components and customize them to fit your needs.</div>
-            </div>
-            <div class="col-md-3 service-card">
-                <div class="service-icon">🔧</div>
-                <div class="service-title">Easy Integration</div>
-                <div class="service-description">Integrate seamlessly with Angular, React, and other frameworks for enhanced flexibility and functionality.</div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-3 service-card">
-                <div class="service-icon">⚙️</div>
-                <div class="service-title">Progressive Web Apps (PWA)</div>
-                <div class="service-description">Build web applications with mobile capabilities, providing a native-like experience on the web.</div>
-            </div>
-            <div class="col-md-3 service-card">
-                <div class="service-icon">🔄</div>
-                <div class="service-title">Live Reloading</div>
-                <div class="service-description">Experience instant feedback during development with live reloading, making iteration faster and easier.</div>
-            </div>
-        </div>
-    </div>
+      <h2 class="services-title" id="span" data-aos="fade-left">Ionic Development Services</h2>
+      <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-icon">📱</div>
+              <div class="service-title">Cross-Platform Development</div>
+              <div class="service-description">Develop applications for web, iOS, and Android from a single codebase, saving time and resources.</div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-icon">🎨</div>
+              <div class="service-title">Custom UI Components</div>
+              <div class="service-description">Utilize a rich library of pre-designed components and customize them to fit your needs.</div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-icon">🔧</div>
+              <div class="service-title">Easy Integration</div>
+              <div class="service-description">Integrate seamlessly with Angular, React, and other frameworks for enhanced flexibility and functionality.</div>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-icon">⚙️</div>
+              <div class="service-title">Progressive Web Apps (PWA)</div>
+              <div class="service-description">Build web applications with mobile capabilities, providing a native-like experience on the web.</div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-icon">🔄</div>
+              <div class="service-title">Live Reloading</div>
+              <div class="service-description">Experience instant feedback during development with live reloading, making iteration faster and easier.</div>
+          </div>
+      </div>
+  </div>
+  
 
     <!-- Benefits Section -->
     <div class="container-fluid benefits-section">
-        <h2 id="span">Benefits of Ionic Framework</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-3 benefit">
-                <div class="benefit-icon">🌍</div>
-                <div class="benefit-title">Cross-Platform</div>
-                <div class="benefit-text">Develop for multiple platforms with a single codebase, reaching a wider audience efficiently.</div>
-            </div>
-            <div class="col-md-3 benefit">
-                <div class="benefit-icon">🎨</div>
-                <div class="benefit-title">UI Components</div>
-                <div class="benefit-text">Leverage a rich library of pre-designed UI components for a consistent and high-quality user experience.</div>
-            </div>
-            <div class="col-md-3 benefit">
-                <div class="benefit-icon">🔗</div>
-                <div class="benefit-title">Web Technologies</div>
-                <div class="benefit-text">Use familiar web technologies like HTML, CSS, and JavaScript, making development more accessible.</div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-3 benefit">
-                <div class="benefit-icon">🔌</div>
-                <div class="benefit-title">Easy Integration</div>
-                <div class="benefit-text">Integrate with various frameworks and services effortlessly, enhancing your application's capabilities.</div>
-            </div>
-            <div class="col-md-3 benefit">
-                <div class="benefit-icon">🎨</div>
-                <div class="benefit-title">Customizable</div>
-                <div class="benefit-text">Customize and theme components to match your brand and application's look and feel.</div>
-            </div>
-            <div class="col-md-3 benefit">
-                <div class="benefit-icon">🤝</div>
-                <div class="benefit-title">Strong Community</div>
-                <div class="benefit-text">Benefit from a large ecosystem of plugins and community support, ensuring robust and up-to-date resources.</div>
-            </div>
-        </div>
-    </div>
+      <h2 id="span" data-aos="fade-left">Benefits of Ionic Framework</h2>
+      <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="100">
+              <div class="benefit-icon">🌍</div>
+              <div class="benefit-title">Cross-Platform</div>
+              <div class="benefit-text">Develop for multiple platforms with a single codebase, reaching a wider audience efficiently.</div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="200">
+              <div class="benefit-icon">🎨</div>
+              <div class="benefit-title">UI Components</div>
+              <div class="benefit-text">Leverage a rich library of pre-designed UI components for a consistent and high-quality user experience.</div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="300">
+              <div class="benefit-icon">🔗</div>
+              <div class="benefit-title">Web Technologies</div>
+              <div class="benefit-text">Use familiar web technologies like HTML, CSS, and JavaScript, making development more accessible.</div>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="400">
+              <div class="benefit-icon">🔌</div>
+              <div class="benefit-title">Easy Integration</div>
+              <div class="benefit-text">Integrate with various frameworks and services effortlessly, enhancing your application's capabilities.</div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="500">
+              <div class="benefit-icon">🎨</div>
+              <div class="benefit-title">Customizable</div>
+              <div class="benefit-text">Customize and theme components to match your brand and application's look and feel.</div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="600">
+              <div class="benefit-icon">🤝</div>
+              <div class="benefit-title">Strong Community</div>
+              <div class="benefit-text">Benefit from a large ecosystem of plugins and community support, ensuring robust and up-to-date resources.</div>
+          </div>
+      </div>
+  </div>
+  
 
     <footer class="text-lg-start text-light mt-3">
       <!-- Section: Social media -->
@@ -371,8 +383,16 @@
       <script>
         AOS.init();
       </script>
-
-
+      <script>
+        document.addEventListener('DOMContentLoaded',function(){
+        
+          AOS.init({
+            duration: 1500,
+            once:true,
+          });
+        });
+        
+              </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

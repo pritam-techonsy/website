@@ -6,11 +6,17 @@
     <title>Electron.js Development</title>
     <link rel="stylesheet" href="angular.css" />
 
+     <!--services and benfits section animation-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+ 
+
     <!-- Locomotive Scroll CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
     />
+
+   
 
     <!-- Google Fonts -->
     <link
@@ -141,8 +147,8 @@
     <div class="container-fluid hero-section">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-8">
-          <h1 id="span">Electron.js Development Company</h1>
-          <p id="service-title">
+          <h1 id="span" data-aos="fade-left">Electron.js Development Company</h1>
+          <p id="service-title" data-aos="fade-right">
             Build future-ready software solutions with the top Angular web
             development company in India
           </p>
@@ -153,10 +159,11 @@
             
             class="img-fluid"
             style="width: 150px; height: 150px"
-          />
+          data-aos="fade-up"
+            />
           <div class="d-flex justify-content-center gap-3 mt-4">
-            <a href="#" class="button-head">Get Started</a>
-            <a href="#" class="button-head">Book a call with our CEO</a>
+            <a href="#" class="button-head" data-aos="fade-up">Get Started</a>
+            <a href="#" class="button-head" data-aos="fade-up">Book a call with our CEO</a>
           </div>
         </div>
       </div>
@@ -164,9 +171,9 @@
 
     <!-- electron.js Development Services Section -->
     <div class="container-fluid services-section">
-      <h2 class="services-title" id="span">Electron.js Development Services</h2>
+      <h2 class="services-title" id="span" data-aos="fade-up">Electron.js Development Services</h2>
       <div class="row justify-content-center">
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="100">
           <div class="service-icon">🖥️</div>
           <div class="service-title">Custom Electron Apps</div>
           <div class="service-description">
@@ -174,7 +181,7 @@
             designed to meet your specific business needs and ensure seamless performance.
           </div>
         </div>
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="200">
           <div class="service-icon">🔧</div>
           <div class="service-title">Electron Consulting</div>
           <div class="service-description">
@@ -182,7 +189,7 @@
             scalable, and maintainable desktop apps for Windows, macOS, and Linux.
           </div>
         </div>
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="300">
           <div class="service-icon">♻️</div>
           <div class="service-title">Migration & Upgrades</div>
           <div class="service-description">
@@ -192,7 +199,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="400">
           <div class="service-icon">⚡</div>
           <div class="service-title">Performance Optimization</div>
           <div class="service-description">
@@ -200,7 +207,7 @@
             ensuring a smooth and responsive experience for your users.
           </div>
         </div>
-        <div class="col-md-3 service-card">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="500">
           <div class="service-icon">👨‍💻</div>
           <div class="service-title">Dedicated Electron Teams</div>
           <div class="service-description">
@@ -213,57 +220,56 @@
     
 
 <!--benefits section-->
-    <div class="container-fluid benefits-section">
-      <h2 id="span" style="padding-bottom: 2vw">
-        Benefits of Electron.js Framework
-      </h2>
-      <div class="row justify-content-center">
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🔗</div>
-          <div class="benefit-title">Single Codebase for All Platforms</div>
-          <div class="benefit-text">
-            Write your application once and deploy it across multiple operating systems, reducing development time and effort.
-          </div>
-        </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🔍</div>
-          <div class="benefit-title">Rich User Interfaces</div>
-          <div class="benefit-text">
-            Create visually appealing and interactive UIs using modern web technologies, enhancing user engagement.
-          </div>
-        </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">💼</div>
-          <div class="benefit-title">Integration with Node.js</div>
-          <div class="benefit-text">
-            Combine the power of Node.js with Electron to access a wide range of packages, enabling advanced functionalities.
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🌟</div>
-          <div class="benefit-title">Consistent User Experience</div>
-          <div class="benefit-text">
-            Ensure a uniform look and feel across different platforms, delivering a seamless experience to users.
-          </div>
-        </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🗂️</div>
-          <div class="benefit-title">Offline Functionality</div>
-          <div class="benefit-text">
-            Develop applications that work offline, allowing users to access critical features without an internet connection.
-          </div>
-        </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🔄</div>
-          <div class="benefit-title">Rapid Prototyping</div>
-          <div class="benefit-text">
-            Quickly build and iterate on prototypes, facilitating faster feedback and enhancements during development.
-          </div>
-        </div>
+<div class="container-fluid benefits-section">
+  <h2 id="span" style="padding-bottom: 2vw" data-aos="fade-up">Benefits of Electron.js Framework</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="100">
+      <div class="benefit-icon">🔗</div>
+      <div class="benefit-title">Single Codebase for All Platforms</div>
+      <div class="benefit-text">
+        Write your application once and deploy it across multiple operating systems, reducing development time and effort.
       </div>
     </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="200">
+      <div class="benefit-icon">🔍</div>
+      <div class="benefit-title">Rich User Interfaces</div>
+      <div class="benefit-text">
+        Create visually appealing and interactive UIs using modern web technologies, enhancing user engagement.
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="300">
+      <div class="benefit-icon">💼</div>
+      <div class="benefit-title">Integration with Node.js</div>
+      <div class="benefit-text">
+        Combine the power of Node.js with Electron to access a wide range of packages, enabling advanced functionalities.
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="400">
+      <div class="benefit-icon">🌟</div>
+      <div class="benefit-title">Consistent User Experience</div>
+      <div class="benefit-text">
+        Ensure a uniform look and feel across different platforms, delivering a seamless experience to users.
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="500">
+      <div class="benefit-icon">🗂️</div>
+      <div class="benefit-title">Offline Functionality</div>
+      <div class="benefit-text">
+        Develop applications that work offline, allowing users to access critical features without an internet connection.
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="600">
+      <div class="benefit-icon">🔄</div>
+      <div class="benefit-title">Rapid Prototyping</div>
+      <div class="benefit-text">
+        Quickly build and iterate on prototypes, facilitating faster feedback and enhancements during development.
+      </div>
+    </div>
+  </div>
+</div>
+
     
     <footer class="text-lg-start text-light mt-3">
       <!-- Section: Social media -->
@@ -437,6 +443,17 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+document.addEventListener('DOMContentLoaded',function(){
+
+   AOS.init({
+  duration:1500,
+  once:true,
+});
+
+});
+
+    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
