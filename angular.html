@@ -12,6 +12,10 @@
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
     />
 
+<!--services and benfits section animation-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+ 
+
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
@@ -57,152 +61,93 @@
   </head>
 
   <body style="background-color: black">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand p-2" href="index.html"
-        ><img src="images/logo_transparent.png" alt="No Logo" width="200"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <!-- Dropdown Trigger -->
+
+      <!-- Nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+        <a class="navbar-brand p-2" href="index.html"
+          ><img src="images/logo_transparent.png" alt="No Logo" width="200"
+        /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <!-- Dropdown Trigger -->
           <li class="nav-item dropdown px-3">
-            <a
-              class="nav-link dropdown-toggle h5"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Expertise
+            <a class="nav-link dropdown-toggle h5" href="#" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
+                Expertise
             </a>
             <div class="dropdown-menu dropdown-menu-right custom-dropdown">
-              <div class="container-fluid">
-                <div id="languages" class="row">
-                  <div style="padding:0vw 1vw;" class="col-md-4">
-                    <a class="dropdown-item" href="angular.html">
-                      <i class="fa-brands fa-angular p-2"></i> Angular</a
-                    >
-                    <a class="dropdown-item" href="react.html">
-                      <i class="fa-brands fa-react p-2"></i> React</a
-                    >
-                    <a class="dropdown-item" href="vuejs.html">
-                      <i class="fa-brands fa-vuejs p-2"></i> VueJs</a
-                    >
-                  </div>
-                  <div style="padding:0vw 1vw;" class="col-md-4">
-                    <a class="dropdown-item" href="nodejs.html">
-                      <i class="fa-brands fa-node-js p-2"></i> NodeJS</a
-                    >
-                    <a class="dropdown-item" href="#"
-                      ><i class="fa-solid fa-atom p-2"></i> Electrons</a
-                    >
-                    <a class="dropdown-item" href="flutter.html"
-                      ><i class="fa-brands fa-flutter p-2"></i> Flutter</a
-                    >
-                  </div>
-                  <div style="padding:0vw 1vw;" class="col-md-4">
-                    <a class="dropdown-item" href="react.html"
-                      ><i class="fa-brands fa-react p-2"></i> React Native</a
-                    >
-                    <a class="dropdown-item" href="ionic.html"
-                      ><i class="fa-solid fa-atom p-2"></i> Ionic</a
-                    >
-                    <a
-                      style="margin-left: 0.22vw"
-                      class="dropdown-item"
-                      href="nextjs.html"
-                      ><i class="fa-solid fa-n p-2"></i> NextJs</a
-                    >
-                  </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a class="dropdown-item" href="angular.html"> <i class="fa-brands fa-angular p-2"></i> Angular</a>
+                            <a class="dropdown-item" href="react.html"> <i class="fa-brands fa-react p-2"></i> React</a>
+  
+                            <a class="dropdown-item" href="vuejs.html"> <i class="fa-brands fa-vuejs p-2"></i> VueJs</a>
+                 
+  
+                        </div>
+                        <div class="col-md-4"> 
+                            <a class="dropdown-item" href="nodejs.html"> <i class="fa-brands fa-node-js p-2"></i> NodeJS</a>
+                            <a class="dropdown-item" href="electrons.html"><i class="fa-solid fa-atom p-2"></i> Electrons</a>
+                            <a class="dropdown-item" href="flutter.html"><i class="fa-brands fa-flutter p-2"></i> Flutter</a>
+                        </div>
+                        <div class="col-md-4"> 
+                            <a class="dropdown-item" href="react.html"><i class="fa-brands fa-react p-2"></i> React Native</a>
+                            <a class="dropdown-item" href="ionic.html"><i class="fa-solid fa-atom p-2"></i> Ionic</a>
+                            <a style="margin-left: 0.22vw;" class="dropdown-item" href="nextjs.html"><i class="fa-solid fa-n p-2"></i> NextJs</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
           </li>
-
+  
           <!-- Another Dropdown Trigger -->
           <li class="nav-item dropdown px-3">
-            <a
-              class="nav-link dropdown-toggle h5"
-              href="#"
-              id="navbarDropdownMenuLink2"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Services
+            <a class="nav-link dropdown-toggle h5" href="#" id="navbarDropdownMenuLink2" role="button" aria-haspopup="true" aria-expanded="false">
+                Services
             </a>
             <div class="dropdown-menu dropdown-menu-right custom-dropdown">
-              <div class="container-fluid">
-                <div id="languages" class="row" style="width: 40vw">
-                  <div style="padding:0.4vw 1vw;" class="col-md-6">
-                    <a class="dropdown-item px-2" href="#">
-                      <i class="fas fa-laptop-code p-2"></i> MEAN/MERN Stack
-                      Development</a
-                    >
-                    <a
-                      style="margin-left: 0.3vw; display: flex; gap: 0.5vw"
-                      class="dropdown-item px-2"
-                      href="#"
-                    >
-                      <i class="fas fa-mobile p-2"></i> Mobile Development</a
-                    >
-                    <a class="dropdown-item px-2" href="#">
-                      <i class="fas fa-users p-2"></i> Remote Full Stack Team</a
-                    >
-                  </div>
-                  <div style="padding:0.4vw 1vw;" class="col-md-6">
-                    <a class="dropdown-item px-2" href="#">
-                      <i class="fas fa-cloud p-2"></i> Cloud Services</a
-                    >
-                    <a
-                      style="margin-left: 0.2vw"
-                      class="dropdown-item px-2"
-                      href="#"
-                      ><i class="fas fa-magic p-2"></i> UI/UX Design</a
-                    >
-                    <a
-                      style="margin-left: 0.4vw"
-                      class="dropdown-item px-2"
-                      href="#"
-                      ><i
-                        style="margin-right: 0.25vw"
-                        class="fas fa-question p-2"
-                      ></i>
-                      QA Testing</a
-                    >
-                  </div>
+                <div class="container-fluid">
+                    <div class="row" style="width: 40vw;">
+                        <div class="col-md-6">
+  
+                            <a class="dropdown-item px-2" href="mean-mern stack development.html"> <i class="fas fa-laptop-code p-2"></i> MEAN/MERN Stack Development</a>
+                            <a style="margin-left: .3vw;display: flex; gap: 0.5vw;" class="dropdown-item px-2" href="mobiledev.html"> <i class="fas fa-mobile p-2"></i>  Mobile Development</a>
+                          
+                            <a class="dropdown-item px-2" href="remote full stack .html"> <i class="fas fa-users p-2"></i> Remote Full Stack Team</a>
+                        </div>
+                        <div class="col-md-6"> 
+                            <a class="dropdown-item px-2" href="cloud services.html"> <i class="fas fa-cloud p-2"></i> Cloud Services</a>
+                            <a style="margin-left: 0.2vw;" class="dropdown-item px-2" href="ui-ux designer.html"><i class="fas fa-magic p-2"></i> UI/UX Design</a>
+                            <a style="margin-left: 0.4vw;" class="dropdown-item px-2" href="QA Testing.html"><i style="margin-right: 0.25vw;" class="fas fa-question p-2"></i> QA Testing</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
           </li>
-          <li class="nav-item px-3">
-            <a class="nav-link h5" href="aboutUs.html">About us</a>
+          <li class="nav-item px-3 ">
+            <a class="nav-link h5 " href="aboutUs.html">About us</a>
           </li>
-          <li class="nav-item px-3">
-            <a class="nav-link h5" href="career.html"> Careers</a>
+          <li class="nav-item px-3 ">
+            <a class="nav-link h5 " href="career.html"> Careers</a>
           </li>
           <li class="nav-item px-3">
             <a class="nav-link h5" href="#contact">Contact</a>
           </li>
-        </ul>
-      </div>
-    </nav>
+          </ul>
+        </div>
+      </nav>
+      <!-- Nav bar End -->
+    
+
+
     <div class="container-fluid hero-section">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-8">
-          <h1 id="span">Angular Development Company</h1>
-          <p id="service-title">
+          <h1 id="span" data-aos="fade-left">Angular Development Company</h1>
+          <p id="service-title" data-aos="fade-right">
             Build future-ready software solutions with the top Angular web
             development company in India
           </p>
@@ -213,120 +158,140 @@
             alt="Angular Logo"
             class="img-fluid"
             style="width: 150px; height: 150px"
+            data-aos="fade-up" 
           />
           <div class="d-flex justify-content-center gap-3 mt-4">
-            <a href="#" class="button-head">Get Started</a>
-            <a href="#" class="button-head">Book a call with our CEO</a>
+            <a href="#" class="button-head" data-aos="fade-up">Get Started</a>
+            <a href="#" class="button-head" data-aos="fade-up">Book a call with our CEO</a>
           </div>
         </div>
       </div>
     </div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+          duration: 1500,  // Animation duration in milliseconds
+          once: true,      // Whether animation should happen only once
+      });
+  });
+</script>  
 
     <!-- Angular Development Services Section -->
-    <div class="container-fluid services-section">
-      <h2 class="services-title" id="span">Angular Development Services</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-3 service-card">
-          <div class="service-icon">✨</div>
-          <div class="service-title">Custom Angular Apps</div>
-          <div class="service-description">
-            Craft bespoke Angular applications aligned with your business
-            objectives, focusing on security, scalability, and growth.
-          </div>
-        </div>
-        <div class="col-md-3 service-card">
-          <div class="service-icon">💡</div>
-          <div class="service-title">Angular Consulting</div>
-          <div class="service-description">
-            Our experts provide consultation to harness Angular's potential for
-            creating maintainable, high-performance applications.
-          </div>
-        </div>
-        <div class="col-md-3 service-card">
-          <div class="service-icon">🔄</div>
-          <div class="service-title">Migration & Upgrades</div>
-          <div class="service-description">
-            Seamlessly upgrade your existing Angular applications to leverage
-            the latest features and enhancements.
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-3 service-card">
-          <div class="service-icon">🚀</div>
-          <div class="service-title">Performance Optimization</div>
-          <div class="service-description">
-            Boost your application's performance with our optimization services,
-            ensuring a fast and smooth user experience.
-          </div>
-        </div>
-        <div class="col-md-3 service-card">
-          <div class="service-icon">👥</div>
-          <div class="service-title">Dedicated Angular Teams</div>
-          <div class="service-description">
-            Expand your team with our dedicated Angular developers, integrated
-            seamlessly into your projects.
-          </div>
-        </div>
+   <div class="container-fluid services-section">
+  <h2 class="services-title" id="span" data-aos="fade-left">Angular Development Services</h2>
+  <div class="row justify-content-center">
+    
+    <!-- Service 1: Custom Angular Apps -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="service-icon">✨</div>
+      <div class="service-title">Custom Angular Apps</div>
+      <div class="service-description">
+        Craft bespoke Angular applications aligned with your business objectives.
       </div>
     </div>
 
-    <div class="container-fluid benefits-section">
-      <h2 id="span" style="padding-bottom: 2vw">
-        Benefits of Angular Framework
-      </h2>
-      <div class="row justify-content-center">
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">⚡</div>
-          <div class="benefit-title">Faster Development</div>
-          <div class="benefit-text">
-            Leverage Angular's modular structure for rapid application
-            development.
-          </div>
-        </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🔧</div>
-          <div class="benefit-title">Robust Framework</div>
-          <div class="benefit-text">
-            Angular offers a complete solution for building high-performance
-            applications.
-          </div>
-        </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🔄</div>
-          <div class="benefit-title">Code Reusability</div>
-          <div class="benefit-text">
-            Reuse code efficiently across projects with Angular's
-            component-based architecture.
-          </div>
+    <!-- Service 2: Angular Consulting -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="service-icon">💡</div>
+      <div class="service-title">Angular Consulting</div>
+      <div class="service-description">
+        Our experts provide consultation to harness Angular's potential.
+      </div>
+    </div>
+
+    <!-- Service 3: Migration & Upgrades -->
+    <div class="col-md-3 service-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="service-icon">🔄</div>
+      <div class="service-title">Migration & Upgrades</div>
+      <div class="service-description">
+        Seamlessly upgrade your existing Angular applications.
+      </div>
+    </div>
+
+    <!-- Service 4: Performance Optimization -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="400">
+      <div class="service-icon">🚀</div>
+      <div class="service-title">Performance Optimization</div>
+      <div class="service-description">
+        Boost your application's performance with optimization services.
+      </div>
+    </div>
+
+    <!-- Service 5: Dedicated Angular Teams -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="500">
+      <div class="service-icon">👥</div>
+      <div class="service-title">Dedicated Angular Teams</div>
+      <div class="service-description">
+        Expand your team with our dedicated Angular developers, integrated seamlessly into your projects.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!--benfits section-->
+   <div class="container-fluid benefits-section">
+    <h2 id="span" style="padding-bottom: 2vw" data-aos="fade-up">Benefits of Angular Framework</h2>
+    <div class="row justify-content-center">
+      
+      <!-- Benefit 1: Faster Development -->
+      <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="100">
+        <div class="benefit-icon">⚡</div>
+        <div class="benefit-title">Faster Development</div>
+        <div class="benefit-text">
+          Leverage Angular's modular structure for rapid development.
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🏗️</div>
-          <div class="benefit-title">Modular Architecture</div>
-          <div class="benefit-text">
-            Enhance maintainability by organizing your code into well-structured
-            modules.
-          </div>
+  
+      <!-- Benefit 2: Robust Framework -->
+      <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="200">
+        <div class="benefit-icon">🔧</div>
+        <div class="benefit-title">Robust Framework</div>
+        <div class="benefit-text">
+          Angular offers a complete solution for building applications.
         </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🚀</div>
-          <div class="benefit-title">Performance Optimization</div>
-          <div class="benefit-text">
-            Boost performance with Angular's built-in optimization techniques.
-          </div>
+      </div>
+  
+      <!-- Benefit 3: Code Reusability -->
+      <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="300">
+        <div class="benefit-icon">🔄</div>
+        <div class="benefit-title">Code Reusability</div>
+        <div class="benefit-text">
+          Reuse code efficiently across projects.
         </div>
-        <div class="col-md-3 benefit">
-          <div class="benefit-icon">🌍</div>
-          <div class="benefit-title">Support from Google</div>
-          <div class="benefit-text">
-            Angular is backed by Google, ensuring long-term support and
-            stability.
-          </div>
+      </div>
+  
+      <!-- Benefit 4: Modular Architecture -->
+      <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="400">
+        <div class="benefit-icon">🏗️</div>
+        <div class="benefit-title">Modular Architecture</div>
+        <div class="benefit-text">
+          Enhance maintainability by organizing your code into modules.
+        </div>
+      </div>
+  
+      <!-- Benefit 5: Performance Optimization -->
+      <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="500">
+        <div class="benefit-icon">🚀</div>
+        <div class="benefit-title">Performance Optimization</div>
+        <div class="benefit-text">
+          Boost performance with Angular's built-in optimization techniques.
+        </div>
+      </div>
+  
+      <!-- Benefit 6: Support from Google -->
+      <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="600">
+        <div class="benefit-icon">🌍</div>
+        <div class="benefit-title">Support from Google</div>
+        <div class="benefit-text">
+          Angular is backed by Google, ensuring long-term support and stability.
         </div>
       </div>
     </div>
+  </div>
+  
     <footer class="text-lg-start text-light mt-3">
       <!-- Section: Social media -->
 

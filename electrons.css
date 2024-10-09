@@ -269,8 +269,4 @@ body {
     height: auto;
     border-radius: 10px;
   }
-  .custom-image {
-    width: 90%;   /* Full container width */ 
-    height: 55%; /* This keeps the aspect ratio intact */
-    
-  }
+  

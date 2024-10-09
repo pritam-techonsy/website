@@ -257,20 +257,5 @@ body {
     margin-bottom: 10px;
   }
   
-  .benefit-text {
-    color: #ccc;
-    font-size: 16px;
-  }
+
   
-  .hero-image,
-  .services-image {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .custom-image {
-    width: 90%;   /* Full container width */ 
-    height: 55%; /* This keeps the aspect ratio intact */
-    
-  }

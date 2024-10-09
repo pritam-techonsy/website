@@ -3,33 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Node.js Development</title>
-    <link rel="stylesheet" href="nodejs.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-    />
+    <title>Electron.js Development</title>
+    <link rel="stylesheet" href="angular.css" />
 
-<!--services and benfits section animation-->
+     <!--services and benfits section animation-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
  
 
-
-    <link rel="stylesheet" href="nodejs.css" />
+    <!-- Locomotive Scroll CSS -->
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+    />
+
+   
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Bootstrap CSS (Latest Version) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Animation CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome (Latest) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- jQuery (for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Locomotive Scroll JS -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <!-- Font Awesome Kit (Optional for additional icons) -->
     <script
       src="https://kit.fontawesome.com/ba9abb9f88.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Initialize Locomotive Scroll -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const scroll = new LocomotiveScroll();
+      });
+    </script>
   </head>
 
-  <body>
-    
+  <body style="background-color: black">
+   
       <!-- Nav bar -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
         <a class="navbar-brand p-2" href="index.html"
@@ -108,23 +142,25 @@
         </div>
       </nav>
       <!-- Nav bar End -->
+    
 
     <div class="container-fluid hero-section">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-8">
-          <h1 id="span" data-aos="fade-left">Node.js Development Services</h1>
+          <h1 id="span" data-aos="fade-left">Electron.js Development Company</h1>
           <p id="service-title" data-aos="fade-right">
-            Maximize efficiency with cutting-edge Node.js development for
-            high-performance apps
+            Build future-ready software solutions with the top Angular web
+            development company in India
           </p>
           <!-- Adding the image -->
+          <!-- <img src="path-to-your-hero-image.png" alt="Angular Development Company" class="hero-image"> -->
           <img
-            src="https://nodejs.org/static/images/logo.svg"
-            alt="Node.js Logo"
+            src="images/electron_icon.png"
+            
             class="img-fluid"
             style="width: 150px; height: 150px"
-            data-aos="fade-up"
-          />
+          data-aos="fade-up"
+            />
           <div class="d-flex justify-content-center gap-3 mt-4">
             <a href="#" class="button-head" data-aos="fade-up">Get Started</a>
             <a href="#" class="button-head" data-aos="fade-up">Book a call with our CEO</a>
@@ -133,101 +169,107 @@
       </div>
     </div>
 
-    <!-- Node.js Development Services Section -->
+    <!-- electron.js Development Services Section -->
     <div class="container-fluid services-section">
-      <h2 class="services-title" id="span">Node.js Development Services</h2>
+      <h2 class="services-title" id="span" data-aos="fade-up">Electron.js Development Services</h2>
       <div class="row justify-content-center">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-icon">⚙️</div>
-          <div class="service-title">Server-Side JavaScript</div>
+          <div class="service-icon">🖥️</div>
+          <div class="service-title">Custom Electron Apps</div>
           <div class="service-description">
-            Build scalable, server-side applications with JavaScript.
+            Build tailored cross-platform desktop applications with Electron.js,
+            designed to meet your specific business needs and ensure seamless performance.
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-icon">🌍</div>
-          <div class="service-title">REST APIs</div>
+          <div class="service-icon">🔧</div>
+          <div class="service-title">Electron Consulting</div>
           <div class="service-description">
-            Develop RESTful APIs for web and mobile applications.
+            Get expert advice on using Electron.js to develop high-performance,
+            scalable, and maintainable desktop apps for Windows, macOS, and Linux.
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-icon">💬</div>
-          <div class="service-title">Real-Time Applications</div>
+          <div class="service-icon">♻️</div>
+          <div class="service-title">Migration & Upgrades</div>
           <div class="service-description">
-            Supports real-time features like chat, notifications, and streaming.
+            Seamlessly migrate your existing desktop apps to Electron.js or upgrade
+            your Electron apps to benefit from the latest features and security improvements.
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-icon">📁</div>
-          <div class="service-title">File Handling</div>
+          <div class="service-icon">⚡</div>
+          <div class="service-title">Performance Optimization</div>
           <div class="service-description">
-            Efficient file uploads and processing capabilities.
+            Enhance your Electron apps with our performance optimization services,
+            ensuring a smooth and responsive experience for your users.
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-icon">💾</div>
-          <div class="service-title">Database Integration</div>
+          <div class="service-icon">👨‍💻</div>
+          <div class="service-title">Dedicated Electron Teams</div>
           <div class="service-description">
-            Connect to databases like MongoDB, MySQL, and PostgreSQL.
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 service-card" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-icon">🛠️</div>
-          <div class="service-title">Microservices Architecture</div>
-          <div class="service-description">
-            Build and deploy microservices for scalable applications.
+            Extend your development capacity with our experienced Electron.js
+            developers, seamlessly integrating into your projects to deliver excellence.
           </div>
         </div>
       </div>
     </div>
+    
 
-    <!-- Benefits of Node.js Framework Section -->
-    <div class="container-fluid benefits-section">
-      <h2 id="span" data-aos="fade-up">Benefits of Node.js Framework</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="100">
-          <div class="benefit-icon">⚡</div>
-          <div class="benefit-title">Asynchronous I/O</div>
-          <div class="benefit-text">
-            Non-blocking operations for high performance and scalability.
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="200">
-          <div class="benefit-icon">💻</div>
-          <div class="benefit-title">Single Language</div>
-          <div class="benefit-text">
-            Uses JavaScript for both client and server-side development.
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="300">
-          <div class="benefit-icon">📈</div>
-          <div class="benefit-title">Scalability</div>
-          <div class="benefit-text">
-            Handles thousands of connections with a single server.
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="400">
-          <div class="benefit-icon">📦</div>
-          <div class="benefit-title">NPM Ecosystem</div>
-          <div class="benefit-text">
-            Access a vast library of tools and packages for rapid development.
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="500">
-          <div class="benefit-icon">🔄</div>
-          <div class="benefit-title">Event-Driven</div>
-          <div class="benefit-text">
-            Efficient handling of real-time events and interactions.
-          </div>
-        </div>
-        
+<!--benefits section-->
+<div class="container-fluid benefits-section">
+  <h2 id="span" style="padding-bottom: 2vw" data-aos="fade-up">Benefits of Electron.js Framework</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="100">
+      <div class="benefit-icon">🔗</div>
+      <div class="benefit-title">Single Codebase for All Platforms</div>
+      <div class="benefit-text">
+        Write your application once and deploy it across multiple operating systems, reducing development time and effort.
       </div>
     </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="200">
+      <div class="benefit-icon">🔍</div>
+      <div class="benefit-title">Rich User Interfaces</div>
+      <div class="benefit-text">
+        Create visually appealing and interactive UIs using modern web technologies, enhancing user engagement.
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="300">
+      <div class="benefit-icon">💼</div>
+      <div class="benefit-title">Integration with Node.js</div>
+      <div class="benefit-text">
+        Combine the power of Node.js with Electron to access a wide range of packages, enabling advanced functionalities.
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="400">
+      <div class="benefit-icon">🌟</div>
+      <div class="benefit-title">Consistent User Experience</div>
+      <div class="benefit-text">
+        Ensure a uniform look and feel across different platforms, delivering a seamless experience to users.
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="500">
+      <div class="benefit-icon">🗂️</div>
+      <div class="benefit-title">Offline Functionality</div>
+      <div class="benefit-text">
+        Develop applications that work offline, allowing users to access critical features without an internet connection.
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 col-xl-3 benefit" data-aos="fade-up" data-aos-delay="600">
+      <div class="benefit-icon">🔄</div>
+      <div class="benefit-title">Rapid Prototyping</div>
+      <div class="benefit-text">
+        Quickly build and iterate on prototypes, facilitating faster feedback and enhancements during development.
+      </div>
+    </div>
+  </div>
+</div>
+
     
     <footer class="text-lg-start text-light mt-3">
       <!-- Section: Social media -->
@@ -251,49 +293,26 @@
               /></a>
               <div class="mt-3">
                 <div class="social">
-                  <a href="#" class="text-white me-1 mx-2">
-                    <i
-                      class="fab fa-facebook-f"
-                      data-aos="flip-left"
-                      data-aos-delay="500"
-                    ></i>
+                  <a href="https://www.facebook.com/your_facebook_username" target="_blank" class="text-white me-1 mx-2">
+                    <i class="fab fa-facebook-f" data-aos="flip-left" data-aos-delay="500"></i>
                   </a>
-                  <a href="#" class="text-white me-1 mx-2">
-                    <i
-                      class="fab fa-twitter"
-                      data-aos="flip-left"
-                      data-aos-delay="600"
-                    ></i>
+                   <a href="https://twitter.com/your_twitter_username" target="_blank" class="text-white me-1 mx-2">
+                    <i class="fab fa-twitter" data-aos="flip-left" data-aos-delay="600"></i>
+                  </a> 
+                  <a href="https://techonsy.com" target="_blank" class="text-white me-1 mx-2">
+                    <i class="fab fa-google" data-aos="flip-left" data-aos-delay="700"></i>
                   </a>
-                  <a href="#" class="text-white me-1 mx-2">
-                    <i
-                      class="fab fa-google"
-                      data-aos="flip-left"
-                      data-aos-delay="700"
-                    ></i>
+                    <a href="https://www.instagram.com/techonsy" target="_blank" class="text-white me-1 mx-2">
+                    <i class="fab fa-instagram" data-aos="flip-left" data-aos-delay="800"></i>
+                  </a>  
+                  <a href="https://in.linkedin.com/company/techonsy" target="_blank" class="text-white me-1 mx-2">
+                    <i class="fab fa-linkedin" data-aos="flip-left" data-aos-delay="900"></i>
                   </a>
-                  <a href="#" class="text-white me-1 mx-2">
-                    <i
-                      class="fab fa-instagram"
-                      data-aos="flip-left"
-                      data-aos-delay="800"
-                    ></i>
-                  </a>
-                  <a href="#" class="text-white me-1 mx-2">
-                    <i
-                      class="fab fa-linkedin"
-                      data-aos="flip-left"
-                      data-aos-delay="900"
-                    ></i>
-                  </a>
-                  <a href="" class="text-white me-1 mx-2">
-                    <i
-                      class="fab fa-github"
-                      data-aos="flip-left"
-                      data-aos-delay="1000"
-                    ></i>
+                  <a href="https://github.com/your_github_username" target="_blank" class="text-white me-1 mx-2">
+                    <i class="fab fa-github" data-aos="flip-left" data-aos-delay="1000"></i>
                   </a>
                 </div>
+
               </div>
             </div>
             <!-- Grid column -->
@@ -395,30 +414,46 @@
         ><i
           class="fa-solid fa-arrow-up p-3 rounded"
           style="
-            background: linear-gradient(100deg, #068ec3, #064a75);
+            background: linear-gradient(100deg,#064a75, #068ec3);
             color: #0a0a0a;
           "
         ></i
       ></a>
     </section>
     <!--  -->
+
     <!-- aos js animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-
+    <!--  -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script>
-document.addEventListener('DOMContentLoaded', function(){
-  AOS.init({
-          duration: 1000, 
-          once: true,      // Whether animation should happen only once
-      });
+document.addEventListener('DOMContentLoaded',function(){
 
-} )
+   AOS.init({
+  duration:1500,
+  once:true,
+});
+
+});
 
     </script>
-    <!--  -->
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
