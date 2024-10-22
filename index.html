@@ -1,993 +1,958 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Techonsy</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
-   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <!-- Bootstrap JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous"> -->
-    <script
-      src="https://kit.fontawesome.com/ba9abb9f88.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <!-- aos animation -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- font-awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
- 
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="locomotive-scroll.min.js"></script>
-<script>
-    (function () {
-        var scroll = new LocomotiveScroll();
-    })();
-</script>
-  </head>
-  <body style="background-color: black;  font-family: 'Roboto'">
-    <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
-      <a class="navbar-brand p-2" href="#"
-        ><img src="images/logo_transparent.png" alt="No Logo" width="200"
-      /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <!-- Dropdown Trigger -->
-        <li class="nav-item dropdown px-3">
-          <a class="nav-link dropdown-toggle h5" href="#" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
-              Expertise
-          </a>
-          <div class="dropdown-menu dropdown-menu-right custom-dropdown">
-              <div class="container-fluid">
-                  <div class="row">
-                      <div class="col-md-4">
-                          <a class="dropdown-item" href="angular.html"> <i class="fa-brands fa-angular p-2"></i> Angular</a>
-                          <a class="dropdown-item" href="react.html"> <i class="fa-brands fa-react p-2"></i> React</a>
+   <html lang="en">
+      <head>
+         <meta charset="UTF-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <title>Techonsy</title>
+         <link rel="stylesheet" href="style.css" />
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
+         <!--sending inputs to email of hrtechonsy-->>
+         <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+         <script type="text/javascript">
+            emailjs.init('RmBXe3g8SZSM1cx-0');
+         </script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+         <!-- Bootstrap JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+         <script
+            src="https://kit.fontawesome.com/ba9abb9f88.js"
+            crossorigin="anonymous"
+            ></script>
+         <link
+            href="https://fonts.googleapis.com/css?family=Roboto"
+            rel="stylesheet"
+            />
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+         <!-- aos animation -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+         <!-- font-awsome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+         <!-- font -->
+         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 
-                          <a class="dropdown-item" href="vuejs.html"> <i class="fa-brands fa-vuejs p-2"></i> VueJs</a>
-               
-
-                      </div>
-                      <div class="col-md-4"> 
-                          <a class="dropdown-item" href="nodejs.html"> <i class="fa-brands fa-node-js p-2"></i> NodeJS</a>
-                          <a class="dropdown-item" href="electrons.html"><i class="fa-solid fa-atom p-2"></i> Electrons</a>
-                          <a class="dropdown-item" href="flutter.html"><i class="fa-brands fa-flutter p-2"></i> Flutter</a>
-                      </div>
-                      <div class="col-md-4"> 
-                          <a class="dropdown-item" href="react.html"><i class="fa-brands fa-react p-2"></i> React Native</a>
-                          <a class="dropdown-item" href="ionic.html"><i class="fa-solid fa-atom p-2"></i> Ionic</a>
-                          <a style="margin-left: 0.22vw;" class="dropdown-item" href="nextjs.html"><i class="fa-solid fa-n p-2"></i> NextJs</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </li>
-
-        <!-- Another Dropdown Trigger -->
-        <li class="nav-item dropdown px-3">
-          <a class="nav-link dropdown-toggle h5" href="#" id="navbarDropdownMenuLink2" role="button" aria-haspopup="true" aria-expanded="false">
-              Services
-          </a>
-          <div class="dropdown-menu dropdown-menu-right custom-dropdown">
-              <div class="container-fluid">
-                  <div class="row" style="width: 40vw;">
-                      <div class="col-md-6">
-
-                          <a class="dropdown-item px-2" href="mean-mern stack development.html"> <i class="fas fa-laptop-code p-2"></i> MEAN/MERN Stack Development</a>
-                          <a style="margin-left: .3vw;display: flex; gap: 0.5vw;" class="dropdown-item px-2" href="mobiledev.html"> <i class="fas fa-mobile p-2"></i>  Mobile Development</a>
-                        
-                          <a class="dropdown-item px-2" href="remote full stack .html"> <i class="fas fa-users p-2"></i> Remote Full Stack Team</a>
-                      </div>
-                      <div class="col-md-6"> 
-                          <a class="dropdown-item px-2" href="cloud services.html"> <i class="fas fa-cloud p-2"></i> Cloud Services</a>
-                          <a style="margin-left: 0.2vw;" class="dropdown-item px-2" href="ui-ux designer.html"><i class="fas fa-magic p-2"></i> UI/UX Design</a>
-                          <a style="margin-left: 0.4vw;" class="dropdown-item px-2" href="QA Testing.html"><i style="margin-right: 0.25vw;" class="fas fa-question p-2"></i> QA Testing</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </li>
-        <li class="nav-item px-3 ">
-          <a class="nav-link h5 " href="aboutUs.html">About us</a>
-        </li>
-        <li class="nav-item px-3 ">
-          <a class="nav-link h5 " href="career.html"> Careers</a>
-        </li>
-        <li class="nav-item px-3">
-          <a class="nav-link h5" href="#contact">Contact</a>
-        </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Nav bar End -->
-    
-    <div class="head-section position-relative text-center" id="home">
-      <img src="images/use-svg-as-background-image-particle-strokes.svg" alt="" class="back-video w-100 h-100 position-absolute top-0 left-0" style="object-fit: cover;">
-      <div class="head-material  position-relative d-flex flex-column justify-content-center align-items-center h-100 p-3">
-          <h1 id="heading" class="font-weight-bold h1-sm-30">Techonsy</h1>
-          <p class="text-light lead fs-sm-1">Empowering your organization and industry with revolutionary innovation through collaborative partnership.</p>
-          <a class="text-light" href="#contact" style="text-decoration: none;">
-              <button class="btn btn-outline-light py-3 px-4 mt-3 custom-radius">Contact us</button>
-          </a>
-      </div>
-  </div>
-  
-  
-  
-
-    <!-- Service Provided -->
-
-    <div class="container">
-      <div class="content">
-        <h2
-          class="text-center text-capitalize text-light mb-3"
-          id="service-title" data-aos="zoom-in">
-          service provided by
-          <span class="text-uppercase fs-5" id="span">techonsy</span>
-        </h2>
-      </div>
-      <div class="card-container d-flex justify-content-center">
-        <div class="row ">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <div class="card h-100 gy-3">
-                    <img style="width: 200px; height: auto;margin:1vw;margin-left: 3.3vw;margin-top: 2vw;"
-                      src="images/web-dev.svg"
-                      alt="Card image cap"
-                    />
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="white" style="margin-top: 5px;" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg> -->
-                    <div class="card-body">
-                      <h5 style="margin-top: -1vw;" class="card-title custom-font" > Remote Full Stack Development</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <div class="card-body">
-                      <h5 class="card-title">Remote Full Stack Development</h5>
-                      <hr class="border-white ">
-                      <p class="card-text m-0">
-                        <ul class="text-start">
-                          <li>Front-End Development</li>
-                          <li>Back-End Development</li>
-                          <li>Database Management</li>
-                          <li>API Development and Integration</li>
-                          <li>Remote Collaboration Tools and Practices</li>
-                          <li>Deployment and Cloud Services</li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      </head>
+      <body style="background-color: black;  font-family: 'Roboto'">
+         <!-- Nav bar -->
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+            <a class="navbar-brand p-2" href="#"
+               ><img src="images/logo_transparent.png" alt="No Logo" width="200"
+               /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav ml-auto">
+                  <!-- Dropdown Trigger -->
+                  <li class="nav-item dropdown px-3">
+                     <a class="nav-link dropdown-toggle h5" href="#" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
+                     Expertise
+                     </a>
+                     <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <a class="dropdown-item" href="angular.html"> <i class="fa-brands fa-angular p-2"></i> Angular</a>
+                                 <a class="dropdown-item" href="react.html"> <i class="fa-brands fa-react p-2"></i> React</a>
+                                 <a class="dropdown-item" href="vuejs.html"> <i class="fa-brands fa-vuejs p-2"></i> VueJs</a>
+                              </div>
+                              <div class="col-md-4"> 
+                                 <a class="dropdown-item" href="nodejs.html"> <i class="fa-brands fa-node-js p-2"></i> NodeJS</a>
+                                 <a class="dropdown-item" href="electrons.html"><i class="fa-solid fa-atom p-2"></i> Electrons</a>
+                                 <a class="dropdown-item" href="flutter.html"><i class="fa-brands fa-flutter p-2"></i> Flutter</a>
+                              </div>
+                              <div class="col-md-4"> 
+                                 <a class="dropdown-item" href="react.html"><i class="fa-brands fa-react p-2"></i> React Native</a>
+                                 <a class="dropdown-item" href="ionic.html"><i class="fa-solid fa-atom p-2"></i> Ionic</a>
+                                 <a style="margin-left: 0.22vw;" class="dropdown-item" href="nextjs.html"><i class="fa-solid fa-n p-2"></i> NextJs</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <!-- Another Dropdown Trigger -->
+                  <li class="nav-item dropdown px-3">
+                     <a class="nav-link dropdown-toggle h5" href="#" id="navbarDropdownMenuLink2" role="button" aria-haspopup="true" aria-expanded="false">
+                     Services
+                     </a>
+                     <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                        <div class="container-fluid">
+                           <div class="row" style="width: 40vw;">
+                              <div class="col-md-6">
+                                 <a class="dropdown-item px-2" href="mean-mern stack development.html"> <i class="fas fa-laptop-code p-2"></i> MEAN/MERN Stack Development</a>
+                                 <a style="margin-left: .3vw;display: flex; gap: 0.5vw;" class="dropdown-item px-2" href="mobiledev.html"> <i class="fas fa-mobile p-2"></i>  Mobile Development</a>
+                                 <a class="dropdown-item px-2" href="remote full stack .html"> <i class="fas fa-users p-2"></i> Remote Full Stack Team</a>
+                              </div>
+                              <div class="col-md-6"> 
+                                 <a class="dropdown-item px-2" href="cloud services.html"> <i class="fas fa-cloud p-2"></i> Cloud Services</a>
+                                 <a style="margin-left: 0.2vw;" class="dropdown-item px-2" href="ui-ux designer.html"><i class="fas fa-magic p-2"></i> UI/UX Design</a>
+                                 <a style="margin-left: 0.4vw;" class="dropdown-item px-2" href="QA Testing.html"><i style="margin-right: 0.25vw;" class="fas fa-question p-2"></i> QA Testing</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="nav-item px-3 ">
+                     <a class="nav-link h5 " href="aboutUs.html">About us</a>
+                  </li>
+                  <li class="nav-item px-3 ">
+                     <a class="nav-link h5 " href="career.html"> Careers</a>
+                  </li>
+                  <li class="nav-item px-3">
+                     <a class="nav-link h5" href="#contact">Contact</a>
+                  </li>
+               </ul>
             </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <div class="card h-100 gy-3 mx-auto">
-                      <img
-                      class="mx-auto mt-5" style="width: 200px; height: auto;"
-                      src="images/mob-dev.svg"
-                      alt="Card image cap"
-                      />
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.<path fill="white" d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM144 448c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM304 64L80 64l0 320 224 0 0-320z"/></svg> -->
-                    <div class="card-body">
-                      <h5 class="card-title  custom-font">QA Testing</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <div class="card-body">
-                      <h5 class="card-title">QA Testing</h5>
-                      <hr class="border-white ">
-                      <p class="card-text m-0">
-                        <ul class="text-start">
-                          <li>Test Planning and Strategy</li>
-                          <li>Functional Testing</li>
-                          <li>Performance Testing</li>
-                          <li>Security Testing</li>
-                          <li>Automation Testing</li>
-                          <li>Usability Testing</li>
-                        </ul>
-                      </p>          
-                    </div>
-                  </div>
-                </div>
-              </div>
+         </nav>
+         <!-- Nav bar End -->
+         <div class="head-section position-relative text-center" id="home">
+            <img src="images/use-svg-as-background-image-particle-strokes.svg" alt="" class="back-video w-100 h-100 position-absolute top-0 left-0" style="object-fit: cover;">
+            <div class="head-material  position-relative d-flex flex-column justify-content-center align-items-center h-100 p-3">
+               <h1 id="heading" class="font-weight-bold h1-sm-30">Techonsy</h1>
+               <p class="text-light lead fs-sm-1">Empowering your organization and industry with revolutionary innovation through collaborative partnership.</p>
+               <a class="text-light" href="#contact" style="text-decoration: none;">
+               <button class="btn btn-outline-light py-3 px-4 mt-3 custom-radius">Contact us</button>
+               </a>
             </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <img
-                      class="mx-auto" style="width: 200px; height: auto;margin-top: 2.3vw;"
-                      src="images/soft-proto.svg"
-                      alt="Card image cap"
-                      />
-                      
-                    <div class="card-body">
-                      <h5 class="card-title custom-font">MERN/MEAN Stack Development</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <div class="card-body">
-                      <h5 class="card-title">MERN/MEAN Stack Development</h5>
-                      <hr class="border-white ">
-                      <p class="card-text m-0">
-                        <ul class="text-start">
-                          <li>Front-End Development</li>
-                          <li>Back-End Development</li>
-                          <li>Database Management</li>
-                          <li>API Development and Integration</li>
-                          <li>State Management</li>
-                          <li>Deployment and Cloud Services</li>
-                        </ul>
-                        
-                      </p>
-                       
-                    </div>
-                  </div>
-                </div>
-              </div>
+         </div>
+         <!-- Service Provided -->
+         <div class="container">
+            <div class="content">
+               <h2
+                  class="text-center text-capitalize text-light mb-3"
+                  id="service-title" data-aos="zoom-in">
+                  service provided by
+                  <span class="text-uppercase fs-5" id="span">techonsy</span>
+               </h2>
             </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <div class="card h-100 gy-3 mx-auto">
-                      <img
-                      class="mx-auto mt-5" style="width: 200px; height: auto;"
-                      src="images/software-integration.svg"
-                      alt="Card image cap"
-                      />
-                    <div class="card-body">
-                      <h5 class="card-title custom-font mt-3">Mobile Development</h5>
-                    </div>
+            <div class="card-container d-flex justify-content-center">
+               <div class="row ">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin">
+                     <div class="flip-card">
+                        <div class="flip-card-inner">
+                           <div class="flip-card-front">
+                              <div class="card h-100 gy-3">
+                                 <img style="width: 200px; height: auto;margin:1vw;margin-left: 3.3vw;margin-top: 2vw;"
+                                    src="images/web-dev.svg"
+                                    alt="Card image cap"
+                                    />
+                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="white" style="margin-top: 5px;" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg> -->
+                                 <div class="card-body">
+                                    <h5 style="margin-top: -1vw;" class="card-title custom-font" > Remote Full Stack Development</h5>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flip-card-back">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <div class="card-body">
+                                    <h5 class="card-title">Remote Full Stack Development</h5>
+                                    <hr class="border-white ">
+                                    <p class="card-text m-0">
+                                    <ul class="text-start">
+                                       <li>Front-End Development</li>
+                                       <li>Back-End Development</li>
+                                       <li>Database Management</li>
+                                       <li>API Development and Integration</li>
+                                       <li>Remote Collaboration Tools and Practices</li>
+                                       <li>Deployment and Cloud Services</li>
+                                    </ul>
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <div class="card-body">
-                      <h5 class="card-title">Mobile Development</h5>
-                      <hr class="border-white ">
-                      <p class="card-text m-0">
-                        <ul class="text-start">
-                          <li>Native App Development</li>
-                          <li>Cross-Platform Development</li>
-                          <li>UI/UX Design for Mobile</li>
-                          <li>Mobile App Testing</li>
-                          <li>Performance Optimization</li>
-                          <li>App Store Deployment</li>
-                        </ul>
-                        
-                      </p>                      
-                    </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
+                     <div class="flip-card">
+                        <div class="flip-card-inner">
+                           <div class="flip-card-front">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <img
+                                    class="mx-auto mt-5" style="width: 200px; height: auto;"
+                                    src="images/mob-dev.svg"
+                                    alt="Card image cap"
+                                    />
+                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.<path fill="white" d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM144 448c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM304 64L80 64l0 320 224 0 0-320z"/></svg> -->
+                                 <div class="card-body">
+                                    <h5 class="card-title  custom-font">QA Testing</h5>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flip-card-back">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <div class="card-body">
+                                    <h5 class="card-title">QA Testing</h5>
+                                    <hr class="border-white ">
+                                    <p class="card-text m-0">
+                                    <ul class="text-start">
+                                       <li>Test Planning and Strategy</li>
+                                       <li>Functional Testing</li>
+                                       <li>Performance Testing</li>
+                                       <li>Security Testing</li>
+                                       <li>Automation Testing</li>
+                                       <li>Usability Testing</li>
+                                    </ul>
+                                    </p>          
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
+                     <div class="flip-card">
+                        <div class="flip-card-inner">
+                           <div class="flip-card-front">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <img
+                                    class="mx-auto" style="width: 200px; height: auto;margin-top: 2.3vw;"
+                                    src="images/soft-proto.svg"
+                                    alt="Card image cap"
+                                    />
+                                 <div class="card-body">
+                                    <h5 class="card-title custom-font">MERN/MEAN Stack Development</h5>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flip-card-back">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <div class="card-body">
+                                    <h5 class="card-title">MERN/MEAN Stack Development</h5>
+                                    <hr class="border-white ">
+                                    <p class="card-text m-0">
+                                    <ul class="text-start">
+                                       <li>Front-End Development</li>
+                                       <li>Back-End Development</li>
+                                       <li>Database Management</li>
+                                       <li>API Development and Integration</li>
+                                       <li>State Management</li>
+                                       <li>Deployment and Cloud Services</li>
+                                    </ul>
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4  d-flex justify-content-center card-margin" >
+                     <div class="flip-card">
+                        <div class="flip-card-inner">
+                           <div class="flip-card-front">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <img
+                                    class="mx-auto mt-5" style="width: 200px; height: auto;"
+                                    src="images/software-integration.svg"
+                                    alt="Card image cap"
+                                    />
+                                 <div class="card-body">
+                                    <h5 class="card-title custom-font mt-3">Mobile Development</h5>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flip-card-back">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <div class="card-body">
+                                    <h5 class="card-title">Mobile Development</h5>
+                                    <hr class="border-white ">
+                                    <p class="card-text m-0">
+                                    <ul class="text-start">
+                                       <li>Native App Development</li>
+                                       <li>Cross-Platform Development</li>
+                                       <li>UI/UX Design for Mobile</li>
+                                       <li>Mobile App Testing</li>
+                                       <li>Performance Optimization</li>
+                                       <li>App Store Deployment</li>
+                                    </ul>
+                                    </p>                      
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
+                     <div class="flip-card">
+                        <div class="flip-card-inner">
+                           <div class="flip-card-front">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <img
+                                    style="width: 200px; height: auto;margin-top: 2vw;margin-left: 2.7vw;"
+                                    src="images/product-dev.svg"
+                                    alt="Card image cap"
+                                    />
+                                 <div class="card-body">
+                                    <h5 class="card-title  custom-font">UI/UX Design</h5>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flip-card-back">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <div class="card-body">
+                                    <h5 class="card-title">UI/UX Design</h5>
+                                    <hr class="border-white ">
+                                    <p class="card-text m-0">
+                                    <ul class="text-start">
+                                       <li>User Research and Analysis</li>
+                                       <li>Wireframing and Prototyping</li>
+                                       <li>Visual Design</li>
+                                       <li>Interaction Design</li>
+                                       <li>Usability Testing</li>
+                                       <li>Accessibility Design</li>
+                                    </ul>
+                                    </p>                      
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin " >
+                     <div class="flip-card">
+                        <div class="flip-card-inner">
+                           <div class="flip-card-front">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <img
+                                    style="width: 200px; height: auto;margin-top: 2vw;margin-left: 2.9vw;"
+                                    src="images/start-up.svg"
+                                    alt="Card image cap"
+                                    />
+                                 <div class="card-body">
+                                    <h5 class="card-title  custom-font">Cloud Services</h5>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flip-card-back">
+                              <div class="card h-100 gy-3 mx-auto">
+                                 <div class="card-body">
+                                    <h5 class="card-title">Cloud Services</h5>
+                                    <hr class="border-white ">
+                                    <p class="card-text m-0"  >
+                                    <ul class="text-start">
+                                       <li>Cloud Computing Platforms</li>
+                                       <li>Cloud Storage Solutions</li>
+                                       <li>Cloud Infrastructure Management</li>
+                                       <li>Cloud Security and Compliance</li>
+                                       <li>Cloud Migration and Integration</li>
+                                       <li>Cloud Monitoring and Optimization</li>
+                                    </ul>
+                                    </p>                      
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin" >
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <img
-                       style="width: 200px; height: auto;margin-top: 2vw;margin-left: 2.7vw;"
-                      src="images/product-dev.svg"
-                      alt="Card image cap"
-                      />
-                    <div class="card-body">
-                      <h5 class="card-title  custom-font">UI/UX Design</h5>
-                    </div>
+         </div>
+         </div>
+         <!-- services provided END -->
+         <!-- Tools & technologies -->
+         <div class="container" style="padding-top: 100px; padding-bottom: 100px;">
+            <h2
+               class="text-center text-capitalize text-light mb-3"
+               id="service-title" data-aos="zoom-in">
+               Our <span class="text-capitalize fs-5" id="span">technology stack</span>
+            </h2>
+            <ul class="nav nav-tabs text-center">
+               <li class="nav-item col-sm-3">
+                  <a
+                     href="#frontend"
+                     class="nav-link active text-capitalize"
+                     data-toggle="tab" id="nav-link"
+                     >front-end</a
+                     >
+               </li>
+               <li class="nav-item col-sm-3">
+                  <a href="#backend" class="nav-link text-capitalize" data-toggle="tab" id="nav-link" aria-expanded="true">back-end</a>
+               </li>
+               <li class="nav-item col-sm-3">
+                  <a href="#database" class="nav-link text-capitalize" data-toggle="tab" id="nav-link"
+                     >database</a
+                     >
+               </li>
+               <li class="nav-item col-sm-3">
+                  <a href="#cloud" class="nav-link text-capitalize" data-toggle="tab" id="nav-link"
+                     >cloud services</a
+                     >
+               </li>
+            </ul>
+            <div class="tab-content" data-aos="fade-right">
+               <!-- FrontEnd Technologies -->
+               <div class="tab-pane fade show active" id="frontend"  >
+                  <div class="row pt-3">
+                     <div class="row">
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/angular-icon.svg"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Angular</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top" width=""
+                                 src="images/react_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">React</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/vue_logo.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Vue</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/flutter_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Flutter</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 frontend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/ionic_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Ionic</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 frontend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/electron_icon.svg"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Electron.JS</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 frontend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/next_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Next.JS</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <div class="card-body">
-                      <h5 class="card-title">UI/UX Design</h5>
-                      <hr class="border-white ">
-                      <p class="card-text m-0">
-                        <ul class="text-start">
-                          <li>User Research and Analysis</li>
-                          <li>Wireframing and Prototyping</li>
-                          <li>Visual Design</li>
-                          <li>Interaction Design</li>
-                          <li>Usability Testing</li>
-                          <li>Accessibility Design</li>
-                        </ul>                        
-                      </p>                      
-                    </div>
+               </div>
+               <!-- Backend Technologoes -->
+               <div class="tab-pane fade" id="backend">
+                  <div class="row pt-3">
+                     <div class="row">
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/nodeJS_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Node.JS</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top" width=""
+                                 src="images/django_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Django</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/python_icon.svg"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Python</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/express_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Express.JS</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 backend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/typescript_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">TypeScript</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 backend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/java_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Java</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 backend-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/springBoot_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Spring Boot</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
+               </div>
+               <!-- Database Technologies -->
+               <div class="tab-pane fade" id="database">
+                  <div class="row pt-3">
+                     <div class="row">
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/mysql_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">MySQL</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top" width=""
+                                 src="images/postgresql_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">PostgreSQL</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/firebase_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Firebase</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/mongoDB_icon.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">MongoDB</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/sqlite_icon.svg"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">SQLite</h5>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
+                           <div class="card technology-card my-2">
+                              <img
+                                 class="card-img-top"
+                                 src="images/redis.png"
+                                 alt="Card image cap"
+                                 />
+                              <div class="mt-auto">
+                                 <h5 class="card-title">Redis</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Cloud Technologies -->
+               <div class="tab-pane fade" id="cloud">
+                  <div class="row pt-3">
+                     <div
+                        class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
+                        <div class="card technology-card my-2">
+                           <img
+                              class="card-img-top"
+                              src="images/aws_icon.svg"
+                              alt="Card image cap"
+                              />
+                           <div class="mt-auto">
+                              <h5 class="card-title">AWS</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div
+                        class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
+                        <div class="card technology-card my-2">
+                           <img
+                              class="card-img-top" width=""
+                              src="images/GCP_icon.png"
+                              alt="Card image cap"
+                              />
+                           <div class="mt-auto">
+                              <h5 class="card-title">GCP</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div
+                        class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
+                        <div class="card technology-card my-2">
+                           <img
+                              class="card-img-top"
+                              src="images/gitLab_icon.png"
+                              alt="Card image cap"
+                              />
+                           <div class="mt-auto">
+                              <h5 class="card-title">GitLab</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div
+                        class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
+                        <div class="card technology-card my-2">
+                           <img
+                              class="card-img-top"
+                              src="images/Docker.png"
+                              alt="Card image cap"
+                              />
+                           <div class="mt-auto">
+                              <h5 class="card-title">Docker</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div
+                        class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
+                        <div class="card technology-card my-2">
+                           <img
+                              class="card-img-top"
+                              src="images/azure_icon.svg"
+                              alt="Card image cap"
+                              />
+                           <div class="mt-auto">
+                              <h5 class="card-title">MS Azure</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div
+                        class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
+                        <div class="card technology-card my-2">
+                           <img
+                              class="card-img-top"
+                              src="images/IBM_icon.png"
+                              alt="Card image cap"
+                              />
+                           <div class="mt-auto">
+                              <h5 class="card-title">IBM cloud</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center card-margin " >
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <img
-                     style="width: 200px; height: auto;margin-top: 2vw;margin-left: 2.9vw;"
-                      src="images/start-up.svg"
-                      alt="Card image cap"
-                      />
-                    <div class="card-body">
-                      <h5 class="card-title  custom-font">Cloud Services</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="flip-card-back">
-                  <div class="card h-100 gy-3 mx-auto">
-                    <div class="card-body">
-                      <h5 class="card-title">Cloud Services</h5>
-                      <hr class="border-white ">
-                      <p class="card-text m-0"  >
-                        <ul class="text-start">
-                          <li>Cloud Computing Platforms</li>
-                          <li>Cloud Storage Solutions</li>
-                          <li>Cloud Infrastructure Management</li>
-                          <li>Cloud Security and Compliance</li>
-                          <li>Cloud Migration and Integration</li>
-                          <li>Cloud Monitoring and Optimization</li>
-                        </ul>                        
-                      </p>                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      </div>
-    </div>
-    
-    <!-- services provided END -->
-
-    <!-- Tools & technologies -->
-    <div class="container" style="padding-top: 100px; padding-bottom: 100px;">
-      <h2
-        class="text-center text-capitalize text-light mb-3"
-        id="service-title" data-aos="zoom-in">
-        Our <span class="text-capitalize fs-5" id="span">technology stack</span>
-      </h2>
-
-      <ul class="nav nav-tabs text-center">
-        <li class="nav-item col-sm-3">
-          <a
-            href="#frontend"
-            class="nav-link active text-capitalize"
-            data-toggle="tab" id="nav-link"
-            >front-end</a
-          >
-        </li>
-        <li class="nav-item col-sm-3">
-          <a href="#backend" class="nav-link text-capitalize" data-toggle="tab" id="nav-link" aria-expanded="true">back-end</a>
-        </li>
-        <li class="nav-item col-sm-3">
-          <a href="#database" class="nav-link text-capitalize" data-toggle="tab" id="nav-link"
-            >database</a
-          >
-        </li>
-        <li class="nav-item col-sm-3">
-          <a href="#cloud" class="nav-link text-capitalize" data-toggle="tab" id="nav-link"
-            >cloud services</a
-          >
-        </li>
-      </ul>
-
-      <div class="tab-content" data-aos="fade-right">
-        <!-- FrontEnd Technologies -->
-        <div class="tab-pane fade show active" id="frontend"  >
-          <div class="row pt-3">
+         </div>
+         <!-- Tools & technologies  End-->
+         <!-- Contact us -->
+         <!--  -->
+         <div class="container" id="contact">
+            <h1 class="text-center">
+               <span class="text-uppercase fs-4" id="span" data-aos="zoom-in" data-aos-delay="400">
+               Contact Us
+               </span>
+            </h1>
+            <p class="text-center text-light " >
+               Connect with TECHONSY - your innovation and technology partner. Together, we'll transform your ideas into reality and elevate your business to new heights.
+            </p>
             <div class="row">
-              <div
-              class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/angular-icon.svg"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Angular</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top" width=""
-                  src="images/react_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">React</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/vue_logo.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Vue</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-3 col-md-3 col-lg-3 frontend-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/flutter_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Flutter</h5>
-                </div>
-              </div>
-            </div>
-            </div>
-           <div class="row">
-            <div
-            class="col-sm-4 col-md-4 col-lg-4 frontend-tech-col">
-            <div class="card technology-card my-2">
-              <img
-                class="card-img-top"
-                src="images/ionic_icon.png"
-                alt="Card image cap"
-              />
-              <div class="mt-auto">
-                <h5 class="card-title">Ionic</h5>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-sm-4 col-md-4 col-lg-4 frontend-tech-col">
-            <div class="card technology-card my-2">
-              <img
-                class="card-img-top"
-                src="images/electron_icon.svg"
-                alt="Card image cap"
-              />
-              <div class="mt-auto">
-                <h5 class="card-title">Electron.JS</h5>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-sm-4 col-md-4 col-lg-4 frontend-tech-col">
-            <div class="card technology-card my-2">
-              <img
-                class="card-img-top"
-                src="images/next_icon.png"
-                alt="Card image cap"
-              />
-              <div class="mt-auto">
-                <h5 class="card-title">Next.JS</h5>
-              </div>
-            </div>
-          </div>
-           </div>
-          </div>
-        </div>
-        
-        <!-- Backend Technologoes -->
-        <div class="tab-pane fade" id="backend">
-          <div class="row pt-3">
-           <div class="row">
-            <div
-            class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
-            <div class="card technology-card my-2">
-              <img
-                class="card-img-top"
-                src="images/nodeJS_icon.png"
-                alt="Card image cap"
-              />
-              <div class="mt-auto">
-                <h5 class="card-title">Node.JS</h5>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
-            <div class="card technology-card my-2">
-              <img
-                class="card-img-top" width=""
-                src="images/django_icon.png"
-                alt="Card image cap"
-              />
-              <div class="mt-auto">
-                <h5 class="card-title">Django</h5>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
-            <div class="card technology-card my-2">
-              <img
-                class="card-img-top"
-                src="images/python_icon.svg"
-                alt="Card image cap"
-              />
-              <div class="mt-auto">
-                <h5 class="card-title">Python</h5>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-sm-3 col-md-3 col-lg-3 backend-tech-col">
-            <div class="card technology-card my-2">
-              <img
-                class="card-img-top"
-                src="images/express_icon.png"
-                alt="Card image cap"
-              />
-              <div class="mt-auto">
-                <h5 class="card-title">Express.JS</h5>
-              </div>
-            </div>
-          </div>
-           </div>
-            <div class="row">
-              <div
-              class="col-sm-4 col-md-4 col-lg-4 backend-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/typescript_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">TypeScript</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 backend-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/java_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Java</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 backend-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/springBoot_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Spring Boot</h5>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Database Technologies -->
-        <div class="tab-pane fade" id="database">
-          <div class="row pt-3">
-            <div class="row">
-              <div
-              class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/mysql_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">MySQL</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top" width=""
-                  src="images/postgresql_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">PostgreSQL</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/firebase_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Firebase</h5>
-                </div>
-              </div>
-            </div>
-            </div>
-            <div class="row">
-              <div
-              class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/mongoDB_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">MongoDB</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/sqlite_icon.svg"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">SQLite</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 database-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/redis.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Redis</h5>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Cloud Technologies -->
-        <div class="tab-pane fade" id="cloud">
-          <div class="row pt-3">
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/aws_icon.svg"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">AWS</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top" width=""
-                  src="images/GCP_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">GCP</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/gitLab_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">GitLab</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/Docker.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">Docker</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/azure_icon.svg"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">MS Azure</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-4 col-md-4 col-lg-4 cloud-tech-col">
-              <div class="card technology-card my-2">
-                <img
-                  class="card-img-top"
-                  src="images/IBM_icon.png"
-                  alt="Card image cap"
-                />
-                <div class="mt-auto">
-                  <h5 class="card-title">IBM cloud</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Tools & technologies  End-->
-    
-    <!-- Contact us -->
-    <!--  -->
-    <div class="container" id="contact">
-    <h1 class="text-center">
-      <span class="text-uppercase fs-4" id="span" data-aos="zoom-in" data-aos-delay="400">
-          Contact Us
-      </span>
-    </h1>
-    <p class="text-center text-light " >
-      Connect with TECHONSY - your innovation and technology partner. Together, we'll transform your ideas into reality and elevate your business to new heights.
-    </p>
-    <div class="row">
-      <div class=" map-address col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto"data-aos="zoom-in" data-aos-delay="500">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0675404511267!2d73.84736777393574!3d18.52584976901548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c11ce7c11b75%3A0x67b2133559cc06b2!2sTechonsy%20Software%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1727163936155!5m2!1sen!2sin" 
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           </div>
-      <div class="col-md-8 mx-auto"data-aos="zoom-in" data-aos-delay="500">
-        <div  class="m-3" style="border: top 1px white;">
-         
-            <!-- <p class="text-center text-light " >
-                Connect with TECHONSY - your innovation and technology partner. Together, we'll transform your ideas into reality and elevate your business to new heights.
-            </p> -->
-            <form id="contactForm" class="container mt-5">
-              <div class="row justify-content-center">
-                <div class="col-md-5 col-sm-12">
-                  <div class="form-group mb-3">
-                    <label for="name" class="form-label text-light">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name" required >
+               <div class=" map-address col-sm-6 col-md-6 col-lg-4 card-margin d-flex mx-auto"data-aos="zoom-in" data-aos-delay="500">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0675404511267!2d73.84736777393574!3d18.52584976901548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c11ce7c11b75%3A0x67b2133559cc06b2!2sTechonsy%20Software%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1727163936155!5m2!1sen!2sin" 
+                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+               <div class="col-md-8 mx-auto"data-aos="zoom-in" data-aos-delay="500">
+                  <div  class="m-3" style="border: top 1px white;">
+                     <!-- <p class="text-center text-light " >
+                        Connect with TECHONSY - your innovation and technology partner. Together, we'll transform your ideas into reality and elevate your business to new heights.
+                        </p> -->
+                     <div id="contactForm" class="container mt-5">
+                        <div class="row justify-content-center">
+                           <div class="col-md-5 col-sm-12">
+                              <div class="form-group mb-3">
+                                 <label for="name" class="form-label text-light">Name</label>
+                                 <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name" required >
+                              </div>
+                           </div>
+                           <div class="col-md-5 col-sm-12">
+                              <div class="form-group mb-3">
+                                 <label for="email" class="form-label text-light">Email Address</label>
+                                 <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email" required/>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row justify-content-center">
+                           <div class="col-md-10 col-sm-12">
+                              <div class="form-group mb-3">
+                                 <label for="subject" class="form-label text-light">Subject</label>
+                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter your Subject" require/>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row justify-content-center">
+                           <div class="col-md-10">
+                              <div class="form-group mb-3">
+                                 <label for="message" class="form-label text-light">Message</label>
+                                 <textarea class="form-control " id="message" name="message" rows="2" placeholder="Enter your message" required ></textarea>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row justify-content-center">
+                           <div class="col-md-auto">
+                              <button type="submit" class="btn button-head btn-primary mt-2" onclick="handle_submit()">Send Message</button>
+                           </div>
+                        </div>
+                      </div>
                   </div>
-                </div>
-                <div class="col-md-5 col-sm-12">
-                  <div class="form-group mb-3">
-                    <label for="email" class="form-label text-light">Email Address</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email" required >
-                  </div>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-md-10 col-sm-12">
-                  <div class="form-group mb-3">
-                    <label for="subject" class="form-label text-light">Subject</label>
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter your Subject" required >
-                  </div>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-md-10">
-                  <div class="form-group mb-3">
-                    <label for="message" class="form-label text-light">Message</label>
-                    <textarea class="form-control " id="message" name="message" rows="2" placeholder="Enter your message" required  ></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-md-auto">
-                  <button type="submit" class="btn button-head btn-primary mt-2">Send Message</button>
-                </div>
-              </div>
-            </form>
-        </div>
-    </div>
-    
-      </div>
-    </div>
-  </div>
-    <!--  -->
-    
-    <!-- Footer -->
-    <footer class="text-lg-start text-light mt-3">
-      <!-- Section: Social media -->
-
-      <!-- Section: Social media -->
-
-      <!-- Section: Links  -->
-      <section>
-        <div class="mx-5 text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <a class="navbar-brand p-2" href="#"
-                ><img src="images/logo_transparent.png" alt="Techonsy Logo" class="img-fluid" width="250"
-              /></a>
-              <div class="mt-3">
-                <div class="social">
-                  <!-- <a href="https://www.facebook.com/your_facebook_username" target="_blank" class="text-white me-1 mx-2">
-                    <i class="fab fa-facebook-f" data-aos="flip-left" data-aos-delay="500"></i> -->
-                  <!-- </a> -->
-                  <!-- <a href="https://twitter.com/your_twitter_username" target="_blank" class="text-white me-1 mx-2">
-                    <i class="fab fa-twitter" data-aos="flip-left" data-aos-delay="600"></i>
-                  </a> -->
-                  <a href="https://techonsy.com" target="_blank" class="text-white me-1 mx-2">
-                    <i class="fab fa-google" data-aos="flip-left" data-aos-delay="700"></i>
-                  </a>
-                    <a href="https://www.instagram.com/techonsy" target="_blank" class="text-white me-1 mx-2">
-                    <i class="fab fa-instagram" data-aos="flip-left" data-aos-delay="800"></i>
-                  </a>  
-                  <a href="https://in.linkedin.com/company/techonsy" target="_blank" class="text-white me-1 mx-2">
-                    <i class="fab fa-linkedin" data-aos="flip-left" data-aos-delay="900"></i>
-                  </a>
-                  <!-- <a href="https://github.com/your_github_username" target="_blank" class="text-white me-1 mx-2">
-                    <i class="fab fa-github" data-aos="flip-left" data-aos-delay="1000"></i>
-                  </a> -->
-                </div>
-              </div>
+               </div>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-right" data-aos-delay="800">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">TECHONSY</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-              />
-              <p>
-                <a href="#!" >Home</a>
-              </p>
-              <p>
-                <a href="#!" >Services</a>
-              </p>
-              <p>
-                <a href="#!" >Consultancies</a>
-              </p>
-              <p>
-                <a href="#!" >Tools & Technologies</a>
-              </p>
-              <p>
-                <a href="#!" >About us</a>
-              </p>
+         </div>
+         </div>
+         <!--  -->
+         <!-- Footer -->
+         <footer class="text-lg-start text-light mt-3">
+            <!-- Section: Social media -->
+            <!-- Section: Social media -->
+            <!-- Section: Links  -->
+            <section>
+               <div class="mx-5 text-md-start mt-5">
+                  <!-- Grid row -->
+                  <div class="row mt-3">
+                     <!-- Grid column -->
+                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <a class="navbar-brand p-2" href="#"
+                           ><img src="images/logo_transparent.png" alt="Techonsy Logo" class="img-fluid" width="250"
+                           /></a>
+                        <div class="mt-3">
+                           <div class="social">
+                              <!-- <a href="https://www.facebook.com/your_facebook_username" target="_blank" class="text-white me-1 mx-2">
+                                 <i class="fab fa-facebook-f" data-aos="flip-left" data-aos-delay="500"></i> -->
+                              <!-- </a> -->
+                              <!-- <a href="https://twitter.com/your_twitter_username" target="_blank" class="text-white me-1 mx-2">
+                                 <i class="fab fa-twitter" data-aos="flip-left" data-aos-delay="600"></i>
+                                 </a> -->
+                              <a href="https://techonsy.com" target="_blank" class="text-white me-1 mx-2">
+                              <i class="fab fa-google" data-aos="flip-left" data-aos-delay="700"></i>
+                              </a>
+                              <a href="https://www.instagram.com/techonsy" target="_blank" class="text-white me-1 mx-2">
+                              <i class="fab fa-instagram" data-aos="flip-left" data-aos-delay="800"></i>
+                              </a>  
+                              <a href="https://in.linkedin.com/company/techonsy" target="_blank" class="text-white me-1 mx-2">
+                              <i class="fab fa-linkedin" data-aos="flip-left" data-aos-delay="900"></i>
+                              </a>
+                              <!-- <a href="https://github.com/your_github_username" target="_blank" class="text-white me-1 mx-2">
+                                 <i class="fab fa-github" data-aos="flip-left" data-aos-delay="1000"></i>
+                                 </a> -->
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Grid column -->
+                     <!-- Grid column -->
+                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-right" data-aos-delay="800">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">TECHONSY</h6>
+                        <hr
+                           class="mb-4 mt-0 d-inline-block mx-auto"
+                           style="width: 60px; background-color: #7c4dff; height: 2px"
+                           />
+                        <p>
+                           <a href="#!" >Home</a>
+                        </p>
+                        <p>
+                           <a href="#!" >Services</a>
+                        </p>
+                        <p>
+                           <a href="#!" >Consultancies</a>
+                        </p>
+                        <p>
+                           <a href="#!" >Tools & Technologies</a>
+                        </p>
+                        <p>
+                           <a href="#!" >About us</a>
+                        </p>
+                     </div>
+                     <!-- Grid column -->
+                     <!-- Grid column -->
+                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-right" data-aos-delay="800">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Services</h6>
+                        <hr
+                           class="mb-4 mt-0 d-inline-block mx-auto"
+                           style="width: 60px; background-color: #7c4dff; height: 2px"
+                           />
+                        <p>
+                           <a href="#!">Web Development</a>
+                        </p>
+                        <p>
+                           <a href="#!">Mobile Development</a>
+                        </p>
+                        <p>
+                           <a href="#!">UI/UX Designing</a>
+                        </p>
+                        <p>
+                           <a href="#!">Product Development</a>
+                        </p>
+                     </div>
+                     <!-- Grid column -->
+                     <!-- Grid column -->
+                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="fade-right" data-aos-delay="800">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr
+                           class="mb-4 mt-0 d-inline-block mx-auto"
+                           style="width: 60px; background-color: #7c4dff; height: 2px"
+                           />
+                        <p>
+                           Office No.12, Third Floor Barve Memorial Complex Jangali Maharaj
+                           Road,Opposite Panchali Hotel Shivaji Nagar Pune 411005
+                        </p>
+                        <p>contact@techonsy.com</p>
+                        <p>+ 91 7276279026</p>
+                     </div>
+                     <!-- Grid column -->
+                  </div>
+                  <!-- Grid row -->
+               </div>
+            </section>
+            <!-- Section: Links  -->
+            <!-- Copyright -->
+            <div class="text-center copyright p-3 text-light">
+               © 2023 Copyright:
+               <a class="text-white" href="https://mdbootstrap.com/">TECHONSY.com</a>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="fade-right" data-aos-delay="800">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Services</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-              />
-              <p>
-                <a href="#!">Web Development</a>
-              </p>
-              <p>
-                <a href="#!">Mobile Development</a>
-              </p>
-              <p>
-                <a href="#!">UI/UX Designing</a>
-              </p>
-              <p>
-                <a href="#!">Product Development</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="fade-right" data-aos-delay="800">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Contact</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-              />
-              <p>
-                Office No.12, Third Floor Barve Memorial Complex Jangali Maharaj
-                Road,Opposite Panchali Hotel Shivaji Nagar Pune 411005
-              </p>
-              <p>contact@techonsy.com</p>
-              <p>+ 91 7276279026</p>
-             </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
-        </div>
-      </section>
-      <!-- Section: Links  -->
-
-      <!-- Copyright -->
-      <div class="text-center copyright p-3 text-light">
-        © 2023 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">TECHONSY.com</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer END -->
-     <!-- up arrow -->
-    <section id="up-arrow">
-      <a href="#home"><i class="fa-solid fa-arrow-up p-3 rounded" style="background: linear-gradient(100deg,#068ec3, #064a75); color: #0a0a0a;"></i></a>
-    </section>
-    <!--  -->
-
-    <!-- aos js animation -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-    <!--  -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
-</html>
+            <!-- Copyright -->
+         </footer>
+         <!-- Footer END -->
+         <!-- up arrow -->
+         <section id="up-arrow">
+            <a href="#home"><i class="fa-solid fa-arrow-up p-3 rounded" style="background: linear-gradient(100deg,#068ec3, #064a75); color: #0a0a0a;"></i></a>
+         </section>
+         <!--  -->
+         <!-- aos js animation -->
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script>AOS.init();</script>
+         <!--  -->
+         <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+            ></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+         <script src="index.js"></script>
+      </body>
+   </html>
